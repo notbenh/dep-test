@@ -1,0 +1,2064 @@
+---
+main:
+  /tmp/Dep_test/go.pl:
+  - line: 2
+    req:
+    - strict.pm
+  - line: 3
+    req:
+    - warnings.pm
+  - line: 4
+    req:
+    - This/Thing.pm:
+        /tmp/Dep_test/This/Thing.pm:
+        - line: 2
+          req:
+          - Moose.pm:
+              /usr/local/lib/perl/5.10.1/Moose.pm:
+              - line: 8
+                req:
+                - strict.pm
+              - line: 9
+                req:
+                - warnings.pm
+              - line: 13
+                req:
+                - Scalar/Util.pm:
+                    /usr/lib/perl/5.10/Scalar/Util.pm:
+                    - line: 9
+                      req:
+                      - strict.pm
+                    - line: 10
+                      req:
+                      - vars.pm:
+                          /usr/share/perl/5.10/vars.pm:
+                          - line: 7
+                            req:
+                            - warnings/register.pm:
+                                /usr/share/perl/5.10/warnings/register.pm:
+                                - line: 5
+                                  req:
+                                  - warnings.pm
+                          - line: 8
+                            req:
+                            - strict.pm
+                    - line: 11
+                      req:
+                      - Exporter.pm:
+                          /usr/share/perl/5.10/Exporter.pm:
+                          - line: 19
+                            req:
+                            - Exporter/Heavy.pm:
+                                /usr/share/perl/5.10/Exporter/Heavy.pm:
+                                - line: 3
+                                  req:
+                                  - strict.pm
+                                - line: 4
+                                  req:
+                                  - strict.pm
+                                - line: 186
+                                  req:
+                                  - warnings.pm
+                                - line: 7
+                                  req:
+                                  - Exporter.pm
+                    - line: 12
+                      req:
+                      - List/Util.pm:
+                          /usr/lib/perl/5.10/List/Util.pm:
+                          - line: 11
+                            req:
+                            - strict.pm
+                          - line: 12
+                            req:
+                            - vars.pm
+                          - line: 13
+                            req:
+                            - Exporter.pm
+                          - line: 26
+                            req:
+                            - XSLoader.pm
+              - line: 14
+                req:
+                - Carp.pm:
+                    /usr/share/perl/5.10/Carp.pm:
+                    - line: 14
+                      req:
+                      - Exporter.pm
+                    /usr/share/perl/5.10/Carp/Heavy.pm:
+                    - line: 5
+                      req:
+                      - Carp.pm
+                    - line: 289
+                      req:
+                      - strict.pm
+                    - line: 290
+                      req:
+                      - warnings.pm
+              - line: 16
+                req:
+                - Moose/Deprecated.pm:
+                    /usr/local/lib/perl/5.10.1/Moose/Deprecated.pm:
+                    - line: 9
+                      req:
+                      - strict.pm
+                    - line: 10
+                      req:
+                      - warnings.pm
+                    - line: 24
+                      req:
+                      - Package/DeprecationManager.pm:
+                          /usr/local/share/perl/5.10.1/Package/DeprecationManager.pm:
+                          - line: 6
+                            req:
+                            - strict.pm
+                          - line: 7
+                            req:
+                            - warnings.pm
+                          - line: 9
+                            req:
+                            - Carp.pm
+                          - line: 10
+                            req:
+                            - List/MoreUtils.pm:
+                                /usr/local/lib/perl/5.10.1/List/MoreUtils.pm:
+                                - line: 4
+                                  req:
+                                  - strict.pm
+                                - line: 5
+                                  req:
+                                  - Exporter.pm
+                                - line: 6
+                                  req:
+                                  - DynaLoader.pm:
+                                      /usr/lib/perl/5.10/DynaLoader.pm:
+                                      - line: 24
+                                        req:
+                                        - Config.pm:
+                                            /usr/lib/perl/5.10/Config.pm:
+                                            - line: 9
+                                              req:
+                                              - strict.pm
+                                            - line: 35
+                                              req:
+                                              - strict.pm
+                                            - line: 69
+                                              req:
+                                              - Config_heavy.pl
+                                            /usr/lib/perl/5.10/Config_heavy.pl:
+                                            - line: 5
+                                              req:
+                                              - strict.pm
+                                            - line: 1211
+                                              req:
+                                              - Config_git.pl
+                                      - line: 21
+                                        req:
+                                        - AutoLoader.pm:
+                                            /usr/share/perl/5.10/AutoLoader.pm:
+                                            - line: 3
+                                              req:
+                                              - strict.pm
+                                            - line: 30
+                                              req:
+                                              - strict.pm
+                                            - line: 138
+                                              req:
+                                              - strict.pm
+                                            - line: 186
+                                              req:
+                                              - strict.pm
+                                - line: 8
+                                  req:
+                                  - vars.pm
+                          - line: 11
+                            req:
+                            - Params/Util.pm:
+                                /usr/local/lib/perl/5.10.1/Params/Util.pm:
+                                - line: 59
+                                  req:
+                                  - strict.pm
+                                - line: 65
+                                  req:
+                                  - vars.pm
+                                - line: 60
+                                  req:
+                                  - overload.pm:
+                                      /usr/share/perl/5.10/overload.pm:
+                                      - line: 139
+                                        req:
+                                        - warnings/register.pm
+                                - line: 61
+                                  req:
+                                  - Exporter.pm
+                                - line: 62
+                                  req:
+                                  - Scalar/Util.pm
+                                - line: 63
+                                  req:
+                                  - DynaLoader.pm
+                          - line: 12
+                            req:
+                            - Sub/Install.pm:
+                                /usr/local/share/perl/5.10.1/Sub/Install.pm:
+                                - line: 3
+                                  req:
+                                  - warnings.pm
+                                - line: 4
+                                  req:
+                                  - strict.pm
+                                - line: 6
+                                  req:
+                                  - Carp.pm
+                                - line: 7
+                                  req:
+                                  - Scalar/Util.pm
+                                - line: 184
+                                  req:
+                                  - strict.pm
+              - line: 17
+                req:
+                - Moose/Exporter.pm:
+                    /usr/local/lib/perl/5.10.1/Moose/Exporter.pm:
+                    - line: 9
+                      req:
+                      - strict.pm
+                    - line: 10
+                      req:
+                      - warnings.pm
+                    - line: 12
+                      req:
+                      - Class/MOP.pm:
+                          /usr/local/lib/perl/5.10.1/Class/MOP.pm:
+                          - line: 10
+                            req:
+                            - strict.pm
+                          - line: 11
+                            req:
+                            - warnings.pm
+                          - line: 15
+                            req:
+                            - MRO/Compat.pm:
+                                /usr/local/share/perl/5.10.1/MRO/Compat.pm:
+                                - line: 2
+                                  req:
+                                  - strict.pm
+                                - line: 3
+                                  req:
+                                  - warnings.pm
+                                - line: 39
+                                  req:
+                                  - warnings.pm
+                                - line: 38
+                                  req:
+                                  - mro.pm:
+                                      /usr/lib/perl/5.10/mro.pm:
+                                      - line: 10
+                                        req:
+                                        - strict.pm
+                                      - line: 11
+                                        req:
+                                        - warnings.pm
+                                - line: 116
+                                  req:
+                                  - strict.pm
+                                - line: 225
+                                  req:
+                                  - strict.pm
+                                - line: 226
+                                  req:
+                                  - warnings.pm
+                                - line: 256
+                                  req:
+                                  - strict.pm
+                          - line: 17
+                            req:
+                            - Carp.pm
+                          - line: 18
+                            req:
+                            - Scalar/Util.pm
+                          - line: 19
+                            req:
+                            - Data/OptList.pm:
+                                /usr/local/share/perl/5.10.1/Data/OptList.pm:
+                                - line: 9
+                                  req:
+                                  - List/Util.pm
+                                - line: 10
+                                  req:
+                                  - Params/Util.pm
+                                - line: 11
+                                  req:
+                                  - Sub/Install.pm
+                          - line: 20
+                            req:
+                            - Try/Tiny.pm:
+                                /usr/local/share/perl/5.10.1/Try/Tiny.pm:
+                                - line: 3
+                                  req:
+                                  - strict.pm
+                                - line: 6
+                                  req:
+                                  - vars.pm
+                                - line: 9
+                                  req:
+                                  - Exporter.pm
+                                - line: 46
+                                  req:
+                                  - Carp.pm
+                          - line: 22
+                            req:
+                            - Class/MOP/Mixin/AttributeCore.pm:
+                                /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/AttributeCore.pm:
+                                - line: 9
+                                  req:
+                                  - strict.pm
+                                - line: 10
+                                  req:
+                                  - warnings.pm
+                                - line: 12
+                                  req:
+                                  - Scalar/Util.pm
+                                - line: 14
+                                  req:
+                                  - base.pm:
+                                      (eval 16):
+                                      - line: 3
+                                        req:
+                                        - Class/MOP/Mixin.pm:
+                                            /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm:
+                                            - line: 9
+                                              req:
+                                              - strict.pm
+                                            - line: 10
+                                              req:
+                                              - warnings.pm
+                                            - line: 12
+                                              req:
+                                              - Scalar/Util.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm:
+                                                  /usr/local/lib/perl/5.10.1/Class/MOP/Class.pm:
+                                                  - line: 10
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 11
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 13
+                                                    req:
+                                                    - Class/MOP/Instance.pm:
+                                                        /usr/local/lib/perl/5.10.1/Class/MOP/Instance.pm:
+                                                        - line: 10
+                                                          req:
+                                                          - strict.pm
+                                                        - line: 11
+                                                          req:
+                                                          - warnings.pm
+                                                        - line: 13
+                                                          req:
+                                                          - Scalar/Util.pm
+                                                        - line: 15
+                                                          req:
+                                                          - base.pm
+                                                  - line: 14
+                                                    req:
+                                                    - Class/MOP/Method/Wrapped.pm:
+                                                        /usr/local/lib/perl/5.10.1/Class/MOP/Method/Wrapped.pm:
+                                                        - line: 10
+                                                          req:
+                                                          - strict.pm
+                                                        - line: 11
+                                                          req:
+                                                          - warnings.pm
+                                                        - line: 13
+                                                          req:
+                                                          - Carp.pm
+                                                        - line: 14
+                                                          req:
+                                                          - Scalar/Util.pm
+                                                        - line: 16
+                                                          req:
+                                                          - base.pm
+                                                  - line: 15
+                                                    req:
+                                                    - Class/MOP/Method/Accessor.pm:
+                                                        /usr/local/lib/perl/5.10.1/Class/MOP/Method/Accessor.pm:
+                                                        - line: 10
+                                                          req:
+                                                          - strict.pm
+                                                        - line: 11
+                                                          req:
+                                                          - warnings.pm
+                                                        - line: 13
+                                                          req:
+                                                          - Carp.pm
+                                                        - line: 14
+                                                          req:
+                                                          - Scalar/Util.pm
+                                                        - line: 15
+                                                          req:
+                                                          - Try/Tiny.pm
+                                                        - line: 17
+                                                          req:
+                                                          - base.pm
+                                                  - line: 16
+                                                    req:
+                                                    - Class/MOP/Method/Constructor.pm:
+                                                        /usr/local/lib/perl/5.10.1/Class/MOP/Method/Constructor.pm:
+                                                        - line: 10
+                                                          req:
+                                                          - strict.pm
+                                                        - line: 11
+                                                          req:
+                                                          - warnings.pm
+                                                        - line: 13
+                                                          req:
+                                                          - Carp.pm
+                                                        - line: 14
+                                                          req:
+                                                          - Scalar/Util.pm
+                                                        - line: 15
+                                                          req:
+                                                          - Try/Tiny.pm
+                                                        - line: 17
+                                                          req:
+                                                          - base.pm
+                                                  - line: 17
+                                                    req:
+                                                    - Class/MOP/MiniTrait.pm:
+                                                        /usr/local/lib/perl/5.10.1/Class/MOP/MiniTrait.pm:
+                                                        - line: 9
+                                                          req:
+                                                          - strict.pm
+                                                        - line: 10
+                                                          req:
+                                                          - warnings.pm
+                                                        - line: 36
+                                                          req:
+                                                          - Class/MOP.pm
+                                                  - line: 19
+                                                    req:
+                                                    - Carp.pm
+                                                  - line: 20
+                                                    req:
+                                                    - Scalar/Util.pm
+                                                  - line: 21
+                                                    req:
+                                                    - Sub/Name.pm:
+                                                        /usr/local/lib/perl/5.10.1/Sub/Name.pm:
+                                                        - line: 44
+                                                          req:
+                                                          - strict.pm
+                                                        - line: 45
+                                                          req:
+                                                          - warnings.pm
+                                                        - line: 49
+                                                          req:
+                                                          - base.pm
+                                                        - line: 50
+                                                          req:
+                                                          - base.pm
+                                                  - line: 22
+                                                    req:
+                                                    - Try/Tiny.pm
+                                                  - line: 23
+                                                    req:
+                                                    - List/MoreUtils.pm
+                                                  - line: 27
+                                                    req:
+                                                    - base.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 15
+                                              req:
+                                              - Class/MOP/Class.pm
+                                      (eval 17):
+                                      - line: 3
+                                        req:
+                                        - Class/MOP/Method.pm:
+                                            /usr/local/lib/perl/5.10.1/Class/MOP/Method.pm:
+                                            - line: 10
+                                              req:
+                                              - strict.pm
+                                            - line: 11
+                                              req:
+                                              - warnings.pm
+                                            - line: 13
+                                              req:
+                                              - Carp.pm
+                                            - line: 14
+                                              req:
+                                              - Scalar/Util.pm
+                                            - line: 16
+                                              req:
+                                              - base.pm
+                                            - line: 21
+                                              req:
+                                              - overload.pm
+                                      (eval 18):
+                                      - line: 3
+                                        req:
+                                        - Class/MOP/Object.pm:
+                                            /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm:
+                                            - line: 10
+                                              req:
+                                              - strict.pm
+                                            - line: 11
+                                              req:
+                                              - warnings.pm
+                                            - line: 13
+                                              req:
+                                              - Carp.pm
+                                            - line: 14
+                                              req:
+                                              - Scalar/Util.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP/Class.pm
+                                      (eval 19):
+                                      - line: 3
+                                        req:
+                                        - Class/MOP/Method/Generated.pm:
+                                            /usr/local/lib/perl/5.10.1/Class/MOP/Method/Generated.pm:
+                                            - line: 10
+                                              req:
+                                              - strict.pm
+                                            - line: 11
+                                              req:
+                                              - warnings.pm
+                                            - line: 13
+                                              req:
+                                              - Carp.pm
+                                            - line: 14
+                                              req:
+                                              - Eval/Closure.pm:
+                                                  /usr/local/share/perl/5.10.1/Eval/Closure.pm:
+                                                  - line: 5
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 6
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 10
+                                                    req:
+                                                    - Sub/Exporter.pm:
+                                                        /usr/local/share/perl/5.10.1/Sub/Exporter.pm:
+                                                        - line: 6
+                                                          req:
+                                                          - Carp.pm
+                                                        - line: 7
+                                                          req:
+                                                          - Data/OptList.pm
+                                                        - line: 8
+                                                          req:
+                                                          - Params/Util.pm
+                                                        - line: 9
+                                                          req:
+                                                          - Sub/Install.pm
+                                                  - line: 13
+                                                    req:
+                                                    - Carp.pm
+                                                  - line: 14
+                                                    req:
+                                                    - overload.pm
+                                                  - line: 15
+                                                    req:
+                                                    - Scalar/Util.pm
+                                                  - line: 16
+                                                    req:
+                                                    - Try/Tiny.pm
+                                            - line: 16
+                                              req:
+                                              - base.pm
+                                      (eval 20):
+                                      - line: 3
+                                        req:
+                                        - Class/MOP/Method/Inlined.pm:
+                                            /usr/local/lib/perl/5.10.1/Class/MOP/Method/Inlined.pm:
+                                            - line: 9
+                                              req:
+                                              - strict.pm
+                                            - line: 10
+                                              req:
+                                              - warnings.pm
+                                            - line: 12
+                                              req:
+                                              - Carp.pm
+                                            - line: 13
+                                              req:
+                                              - Scalar/Util.pm
+                                            - line: 15
+                                              req:
+                                              - base.pm
+                                      (eval 21):
+                                      - line: 3
+                                        req:
+                                        - Class/MOP/Module.pm:
+                                            /usr/local/lib/perl/5.10.1/Class/MOP/Module.pm:
+                                            - line: 10
+                                              req:
+                                              - strict.pm
+                                            - line: 11
+                                              req:
+                                              - warnings.pm
+                                            - line: 13
+                                              req:
+                                              - Carp.pm
+                                            - line: 14
+                                              req:
+                                              - Scalar/Util.pm
+                                            - line: 16
+                                              req:
+                                              - base.pm
+                                      (eval 22):
+                                      - line: 3
+                                        req:
+                                        - Class/MOP/Package.pm:
+                                            /usr/local/lib/perl/5.10.1/Class/MOP/Deprecated.pm:
+                                            - line: 82
+                                              req:
+                                              - Scalar/Util.pm
+                                            /usr/local/lib/perl/5.10.1/Class/MOP/Package.pm:
+                                            - line: 10
+                                              req:
+                                              - strict.pm
+                                            - line: 11
+                                              req:
+                                              - warnings.pm
+                                            - line: 13
+                                              req:
+                                              - Scalar/Util.pm
+                                            - line: 14
+                                              req:
+                                              - Carp.pm
+                                            - line: 15
+                                              req:
+                                              - Devel/GlobalDestruction.pm:
+                                                  /usr/local/lib/perl/5.10.1/Devel/GlobalDestruction.pm:
+                                                  - line: 5
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 6
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 8
+                                                    req:
+                                                    - XSLoader.pm
+                                                  - line: 15
+                                                    req:
+                                                    - Sub/Exporter.pm
+                                            - line: 16
+                                              req:
+                                              - Package/Stash.pm:
+                                                  (eval 23):
+                                                  - line: 1
+                                                    req:
+                                                    - Package/Stash/XS.pm:
+                                                        /usr/local/lib/perl/5.10.1/Package/Stash/XS.pm:
+                                                        - line: 5
+                                                          req:
+                                                          - strict.pm
+                                                        - line: 6
+                                                          req:
+                                                          - warnings.pm
+                                                        - line: 9
+                                                          req:
+                                                          - XSLoader.pm
+                                                  /usr/local/share/perl/5.10.1/Package/Stash.pm:
+                                                  - line: 5
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 6
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 56
+                                                    req:
+                                                    - Package/DeprecationManager.pm
+                                            - line: 18
+                                              req:
+                                              - base.pm
+                                            - line: 96
+                                              req:
+                                              - warnings.pm
+                                            - line: 151
+                                              req:
+                                              - warnings.pm
+                                            - line: 157
+                                              req:
+                                              - strict.pm
+                                      (eval 24):
+                                      - line: 3
+                                        req:
+                                        - Moose/Meta/Method.pm:
+                                            /usr/local/lib/perl/5.10.1/Moose/Meta/Method.pm:
+                                            - line: 9
+                                              req:
+                                              - strict.pm
+                                            - line: 10
+                                              req:
+                                              - warnings.pm
+                                            - line: 12
+                                              req:
+                                              - Class/MOP/MiniTrait.pm
+                                            - line: 14
+                                              req:
+                                              - base.pm
+                                      (eval 61):
+                                      - line: 3
+                                        req:
+                                        - Moose/Meta/Mixin/AttributeCore.pm:
+                                            /usr/local/lib/perl/5.10.1/Moose/Meta/Mixin/AttributeCore.pm:
+                                            - line: 9
+                                              req:
+                                              - strict.pm
+                                            - line: 10
+                                              req:
+                                              - warnings.pm
+                                            - line: 12
+                                              req:
+                                              - base.pm
+                                      /usr/share/perl/5.10/base.pm:
+                                      - line: 3
+                                        req:
+                                        - strict.pm
+                                      - line: 4
+                                        req:
+                                        - vars.pm
+                          - line: 23
+                            req:
+                            - Class/MOP/Mixin/HasAttributes.pm:
+                                /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/HasAttributes.pm:
+                                - line: 9
+                                  req:
+                                  - strict.pm
+                                - line: 10
+                                  req:
+                                  - warnings.pm
+                                - line: 12
+                                  req:
+                                  - Carp.pm
+                                - line: 13
+                                  req:
+                                  - Scalar/Util.pm
+                                - line: 15
+                                  req:
+                                  - base.pm
+                          - line: 24
+                            req:
+                            - Class/MOP/Mixin/HasMethods.pm:
+                                /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/HasMethods.pm:
+                                - line: 9
+                                  req:
+                                  - strict.pm
+                                - line: 10
+                                  req:
+                                  - warnings.pm
+                                - line: 12
+                                  req:
+                                  - Class/MOP/Method/Meta.pm:
+                                      /usr/local/lib/perl/5.10.1/Class/MOP/Method/Meta.pm:
+                                      - line: 10
+                                        req:
+                                        - strict.pm
+                                      - line: 11
+                                        req:
+                                        - warnings.pm
+                                      - line: 13
+                                        req:
+                                        - Carp.pm
+                                      - line: 14
+                                        req:
+                                        - Scalar/Util.pm
+                                      - line: 16
+                                        req:
+                                        - constant.pm:
+                                            /usr/share/perl/5.10/constant.pm:
+                                            - line: 3
+                                              req:
+                                              - strict.pm
+                                            - line: 4
+                                              req:
+                                              - warnings/register.pm
+                                            - line: 6
+                                              req:
+                                              - vars.pm
+                                            - line: 38
+                                              req:
+                                              - strict.pm
+                                            - line: 101
+                                              req:
+                                              - strict.pm
+                                      - line: 18
+                                        req:
+                                        - base.pm
+                                - line: 14
+                                  req:
+                                  - Scalar/Util.pm
+                                - line: 15
+                                  req:
+                                  - Carp.pm
+                                - line: 16
+                                  req:
+                                  - Sub/Name.pm
+                                - line: 18
+                                  req:
+                                  - base.pm
+                          - line: 25
+                            req:
+                            - Class/MOP/Class.pm
+                          - line: 26
+                            req:
+                            - Class/MOP/Attribute.pm:
+                                /usr/local/lib/perl/5.10.1/Class/MOP/Attribute.pm:
+                                - line: 10
+                                  req:
+                                  - strict.pm
+                                - line: 11
+                                  req:
+                                  - warnings.pm
+                                - line: 13
+                                  req:
+                                  - Class/MOP/Method/Accessor.pm
+                                - line: 15
+                                  req:
+                                  - Carp.pm
+                                - line: 16
+                                  req:
+                                  - Scalar/Util.pm
+                                - line: 17
+                                  req:
+                                  - Try/Tiny.pm
+                                - line: 19
+                                  req:
+                                  - base.pm
+                          - line: 27
+                            req:
+                            - Class/MOP/Method.pm
+                          - line: 683
+                            req:
+                            - Class/MOP/Deprecated.pm:
+                                /usr/local/lib/perl/5.10.1/Class/MOP/Deprecated.pm:
+                                - line: 9
+                                  req:
+                                  - strict.pm
+                                - line: 10
+                                  req:
+                                  - warnings.pm
+                                - line: 51
+                                  req:
+                                  - Package/DeprecationManager.pm
+                          - line: 117
+                            req:
+                            - Class/MOP/Class/Immutable/Trait.pm:
+                                /usr/local/lib/perl/5.10.1/Class/MOP/Class/Immutable/Trait.pm:
+                                - line: 9
+                                  req:
+                                  - strict.pm
+                                - line: 10
+                                  req:
+                                  - warnings.pm
+                                - line: 12
+                                  req:
+                                  - MRO/Compat.pm
+                                - line: 14
+                                  req:
+                                  - Carp.pm
+                                - line: 15
+                                  req:
+                                  - Scalar/Util.pm
+                                - line: 36
+                                  req:
+                                  - strict.pm
+                                - line: 46
+                                  req:
+                                  - strict.pm
+                          - line: 117
+                            req:
+                            - Moose/Meta/Object/Trait.pm:
+                                /usr/local/lib/perl/5.10.1/Moose/Meta/Object/Trait.pm:
+                                - line: 10
+                                  req:
+                                  - Scalar/Util.pm
+                          - line: 117
+                            req:
+                            - This/DB.pm:
+                                /tmp/Dep_test/This/DB.pm:
+                                - line: 2
+                                  req:
+                                  - Moose/Role.pm:
+                                      /usr/local/lib/perl/5.10.1/Moose/Role.pm:
+                                      - line: 8
+                                        req:
+                                        - strict.pm
+                                      - line: 9
+                                        req:
+                                        - warnings.pm
+                                      - line: 11
+                                        req:
+                                        - Scalar/Util.pm
+                                      - line: 12
+                                        req:
+                                        - Carp.pm
+                                      - line: 14
+                                        req:
+                                        - Sub/Exporter.pm
+                                      - line: 16
+                                        req:
+                                        - Moose.pm
+                                      - line: 17
+                                        req:
+                                        - Moose/Util.pm:
+                                            /usr/local/lib/perl/5.10.1/Moose/Util.pm:
+                                            - line: 9
+                                              req:
+                                              - strict.pm
+                                            - line: 10
+                                              req:
+                                              - warnings.pm
+                                            - line: 12
+                                              req:
+                                              - Data/OptList.pm
+                                            - line: 13
+                                              req:
+                                              - Params/Util.pm
+                                            - line: 14
+                                              req:
+                                              - Sub/Exporter.pm
+                                            - line: 15
+                                              req:
+                                              - Scalar/Util.pm
+                                            - line: 16
+                                              req:
+                                              - List/Util.pm
+                                            - line: 17
+                                              req:
+                                              - List/MoreUtils.pm
+                                            - line: 18
+                                              req:
+                                              - overload.pm
+                                            - line: 19
+                                              req:
+                                              - Class/MOP.pm
+                                      - line: 19
+                                        req:
+                                        - Moose/Exporter.pm
+                                      - line: 20
+                                        req:
+                                        - Moose/Meta/Role.pm:
+                                            /usr/local/lib/perl/5.10.1/Moose/Meta/Role.pm:
+                                            - line: 10
+                                              req:
+                                              - strict.pm
+                                            - line: 11
+                                              req:
+                                              - warnings.pm
+                                            - line: 12
+                                              req:
+                                              - metaclass.pm:
+                                                  /usr/local/lib/perl/5.10.1/metaclass.pm:
+                                                  - line: 10
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 11
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 13
+                                                    req:
+                                                    - Carp.pm
+                                                  - line: 14
+                                                    req:
+                                                    - Scalar/Util.pm
+                                                  - line: 15
+                                                    req:
+                                                    - Try/Tiny.pm
+                                                  - line: 17
+                                                    req:
+                                                    - Class/MOP.pm
+                                            - line: 14
+                                              req:
+                                              - Scalar/Util.pm
+                                            - line: 15
+                                              req:
+                                              - Carp.pm
+                                            - line: 16
+                                              req:
+                                              - Devel/GlobalDestruction.pm
+                                            - line: 18
+                                              req:
+                                              - Moose/Meta/Class.pm:
+                                                  /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm:
+                                                  - line: 10
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 11
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 13
+                                                    req:
+                                                    - Class/MOP.pm
+                                                  - line: 15
+                                                    req:
+                                                    - Carp.pm
+                                                  - line: 16
+                                                    req:
+                                                    - Data/OptList.pm
+                                                  - line: 17
+                                                    req:
+                                                    - List/Util.pm
+                                                  - line: 18
+                                                    req:
+                                                    - List/MoreUtils.pm
+                                                  - line: 19
+                                                    req:
+                                                    - Scalar/Util.pm
+                                                  - line: 21
+                                                    req:
+                                                    - Moose/Meta/Method/Overridden.pm:
+                                                        /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Overridden.pm:
+                                                        - line: 9
+                                                          req:
+                                                          - strict.pm
+                                                        - line: 10
+                                                          req:
+                                                          - warnings.pm
+                                                        - line: 12
+                                                          req:
+                                                          - base.pm
+                                                  - line: 22
+                                                    req:
+                                                    - Moose/Meta/Method/Augmented.pm:
+                                                        /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Augmented.pm:
+                                                        - line: 9
+                                                          req:
+                                                          - strict.pm
+                                                        - line: 10
+                                                          req:
+                                                          - warnings.pm
+                                                        - line: 12
+                                                          req:
+                                                          - base.pm
+                                                  - line: 23
+                                                    req:
+                                                    - Moose/Error/Default.pm:
+                                                        /usr/local/lib/perl/5.10.1/Moose/Error/Default.pm:
+                                                        - line: 9
+                                                          req:
+                                                          - strict.pm
+                                                        - line: 10
+                                                          req:
+                                                          - warnings.pm
+                                                        - line: 12
+                                                          req:
+                                                          - Carp/Heavy.pm
+                                                        - line: 13
+                                                          req:
+                                                          - Class/MOP/MiniTrait.pm
+                                                        - line: 15
+                                                          req:
+                                                          - base.pm
+                                                  - line: 24
+                                                    req:
+                                                    - Moose/Meta/Class/Immutable/Trait.pm:
+                                                        /usr/local/lib/perl/5.10.1/Moose/Meta/Class/Immutable/Trait.pm:
+                                                        - line: 9
+                                                          req:
+                                                          - strict.pm
+                                                        - line: 10
+                                                          req:
+                                                          - warnings.pm
+                                                        - line: 12
+                                                          req:
+                                                          - Class/MOP.pm
+                                                        - line: 13
+                                                          req:
+                                                          - Scalar/Util.pm
+                                                        - line: 15
+                                                          req:
+                                                          - base.pm
+                                                  - line: 25
+                                                    req:
+                                                    - Moose/Meta/Method/Constructor.pm:
+                                                        /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Constructor.pm:
+                                                        - line: 10
+                                                          req:
+                                                          - strict.pm
+                                                        - line: 11
+                                                          req:
+                                                          - warnings.pm
+                                                        - line: 13
+                                                          req:
+                                                          - Carp.pm
+                                                        - line: 14
+                                                          req:
+                                                          - Scalar/Util.pm
+                                                        - line: 15
+                                                          req:
+                                                          - Try/Tiny.pm
+                                                        - line: 18
+                                                          req:
+                                                          - base.pm
+                                                  - line: 26
+                                                    req:
+                                                    - Moose/Meta/Method/Destructor.pm:
+                                                        /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Destructor.pm:
+                                                        - line: 10
+                                                          req:
+                                                          - strict.pm
+                                                        - line: 11
+                                                          req:
+                                                          - warnings.pm
+                                                        - line: 13
+                                                          req:
+                                                          - Devel/GlobalDestruction.pm
+                                                        - line: 14
+                                                          req:
+                                                          - Scalar/Util.pm
+                                                        - line: 15
+                                                          req:
+                                                          - Try/Tiny.pm
+                                                        - line: 18
+                                                          req:
+                                                          - base.pm
+                                                  - line: 27
+                                                    req:
+                                                    - Moose/Meta/Method/Meta.pm:
+                                                        /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Meta.pm:
+                                                        - line: 10
+                                                          req:
+                                                          - strict.pm
+                                                        - line: 11
+                                                          req:
+                                                          - warnings.pm
+                                                        - line: 14
+                                                          req:
+                                                          - base.pm
+                                                  - line: 28
+                                                    req:
+                                                    - Moose/Util.pm
+                                                  - line: 29
+                                                    req:
+                                                    - Class/MOP/MiniTrait.pm
+                                                  - line: 31
+                                                    req:
+                                                    - base.pm
+                                            - line: 19
+                                              req:
+                                              - Moose/Meta/Role/Attribute.pm:
+                                                  /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Attribute.pm:
+                                                  - line: 9
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 10
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 12
+                                                    req:
+                                                    - Carp.pm
+                                                  - line: 13
+                                                    req:
+                                                    - List/MoreUtils.pm
+                                                  - line: 14
+                                                    req:
+                                                    - Scalar/Util.pm
+                                                  - line: 16
+                                                    req:
+                                                    - base.pm
+                                            - line: 20
+                                              req:
+                                              - Moose/Meta/Role/Method.pm:
+                                                  /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Method.pm:
+                                                  - line: 10
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 11
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 13
+                                                    req:
+                                                    - base.pm
+                                            - line: 21
+                                              req:
+                                              - Moose/Meta/Role/Method/Required.pm:
+                                                  /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Method/Required.pm:
+                                                  - line: 10
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 11
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 12
+                                                    req:
+                                                    - metaclass.pm
+                                                  - line: 15
+                                                    req:
+                                                    - overload.pm
+                                                  - line: 17
+                                                    req:
+                                                    - base.pm
+                                            - line: 22
+                                              req:
+                                              - Moose/Meta/Role/Method/Conflicting.pm:
+                                                  /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Method/Conflicting.pm:
+                                                  - line: 10
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 11
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 13
+                                                    req:
+                                                    - Moose/Util.pm
+                                                  - line: 15
+                                                    req:
+                                                    - base.pm
+                                            - line: 23
+                                              req:
+                                              - Moose/Meta/Method/Meta.pm
+                                            - line: 24
+                                              req:
+                                              - Moose/Util.pm
+                                            - line: 25
+                                              req:
+                                              - Class/MOP/MiniTrait.pm
+                                            - line: 29
+                                              req:
+                                              - base.pm
+                                      - line: 21
+                                        req:
+                                        - Moose/Util/TypeConstraints.pm:
+                                            /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm:
+                                            - line: 10
+                                              req:
+                                              - Carp.pm
+                                            - line: 11
+                                              req:
+                                              - List/MoreUtils.pm
+                                            - line: 12
+                                              req:
+                                              - Scalar/Util.pm
+                                            - line: 13
+                                              req:
+                                              - Moose/Exporter.pm
+                                            - line: 30
+                                              req:
+                                              - Moose/Deprecated.pm
+                                            - line: 31
+                                              req:
+                                              - Moose/Meta/TypeConstraint.pm:
+                                                  /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint.pm:
+                                                  - line: 10
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 11
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 12
+                                                    req:
+                                                    - metaclass.pm
+                                                  - line: 17
+                                                    req:
+                                                    - overload.pm
+                                                  - line: 19
+                                                    req:
+                                                    - Scalar/Util.pm
+                                                  - line: 20
+                                                    req:
+                                                    - Sub/Name.pm
+                                                  - line: 21
+                                                    req:
+                                                    - Try/Tiny.pm
+                                                  - line: 23
+                                                    req:
+                                                    - base.pm
+                                            - line: 32
+                                              req:
+                                              - Moose/Meta/TypeConstraint/Union.pm:
+                                                  /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Union.pm:
+                                                  - line: 10
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 11
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 12
+                                                    req:
+                                                    - metaclass.pm
+                                                  - line: 14
+                                                    req:
+                                                    - Moose/Meta/TypeCoercion/Union.pm:
+                                                        /usr/local/lib/perl/5.10.1/Moose/Meta/TypeCoercion/Union.pm:
+                                                        - line: 10
+                                                          req:
+                                                          - strict.pm
+                                                        - line: 11
+                                                          req:
+                                                          - warnings.pm
+                                                        - line: 12
+                                                          req:
+                                                          - metaclass.pm
+                                                        - line: 14
+                                                          req:
+                                                          - Scalar/Util.pm
+                                                        - line: 16
+                                                          req:
+                                                          - base.pm
+                                                  - line: 16
+                                                    req:
+                                                    - List/Util.pm
+                                                  - line: 18
+                                                    req:
+                                                    - base.pm
+                                            - line: 33
+                                              req:
+                                              - Moose/Meta/TypeConstraint/Parameterized.pm:
+                                                  /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Parameterized.pm:
+                                                  - line: 9
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 10
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 11
+                                                    req:
+                                                    - metaclass.pm
+                                                  - line: 13
+                                                    req:
+                                                    - Scalar/Util.pm
+                                                  - line: 14
+                                                    req:
+                                                    - Moose/Util/TypeConstraints.pm
+                                                  - line: 15
+                                                    req:
+                                                    - Moose/Meta/TypeConstraint/Parameterizable.pm:
+                                                        /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Parameterizable.pm:
+                                                        - line: 9
+                                                          req:
+                                                          - strict.pm
+                                                        - line: 10
+                                                          req:
+                                                          - warnings.pm
+                                                        - line: 11
+                                                          req:
+                                                          - metaclass.pm
+                                                        - line: 13
+                                                          req:
+                                                          - base.pm
+                                                        - line: 14
+                                                          req:
+                                                          - Moose/Meta/TypeConstraint/Parameterized.pm
+                                                        - line: 15
+                                                          req:
+                                                          - Moose/Util/TypeConstraints.pm
+                                                  - line: 17
+                                                    req:
+                                                    - base.pm
+                                            - line: 34
+                                              req:
+                                              - Moose/Meta/TypeConstraint/Parameterizable.pm
+                                            - line: 35
+                                              req:
+                                              - Moose/Meta/TypeConstraint/Class.pm:
+                                                  /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Class.pm:
+                                                  - line: 9
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 10
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 11
+                                                    req:
+                                                    - metaclass.pm
+                                                  - line: 13
+                                                    req:
+                                                    - Scalar/Util.pm
+                                                  - line: 14
+                                                    req:
+                                                    - Moose/Util/TypeConstraints.pm
+                                                  - line: 16
+                                                    req:
+                                                    - base.pm
+                                            - line: 36
+                                              req:
+                                              - Moose/Meta/TypeConstraint/Role.pm:
+                                                  /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Role.pm:
+                                                  - line: 9
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 10
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 11
+                                                    req:
+                                                    - metaclass.pm
+                                                  - line: 13
+                                                    req:
+                                                    - Scalar/Util.pm
+                                                  - line: 14
+                                                    req:
+                                                    - Moose/Util/TypeConstraints.pm
+                                                  - line: 16
+                                                    req:
+                                                    - base.pm
+                                            - line: 37
+                                              req:
+                                              - Moose/Meta/TypeConstraint/Enum.pm:
+                                                  /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Enum.pm:
+                                                  - line: 9
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 10
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 11
+                                                    req:
+                                                    - metaclass.pm
+                                                  - line: 13
+                                                    req:
+                                                    - Moose/Util/TypeConstraints.pm
+                                                  - line: 15
+                                                    req:
+                                                    - base.pm
+                                            - line: 38
+                                              req:
+                                              - Moose/Meta/TypeConstraint/DuckType.pm:
+                                                  /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/DuckType.pm:
+                                                  - line: 9
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 10
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 11
+                                                    req:
+                                                    - metaclass.pm
+                                                  - line: 13
+                                                    req:
+                                                    - Scalar/Util.pm
+                                                  - line: 14
+                                                    req:
+                                                    - List/MoreUtils.pm
+                                                  - line: 15
+                                                    req:
+                                                    - Moose/Util.pm
+                                                  - line: 17
+                                                    req:
+                                                    - Moose/Util/TypeConstraints.pm
+                                                  - line: 19
+                                                    req:
+                                                    - base.pm
+                                            - line: 39
+                                              req:
+                                              - Moose/Meta/TypeCoercion.pm:
+                                                  /usr/local/lib/perl/5.10.1/Moose/Meta/TypeCoercion.pm:
+                                                  - line: 10
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 11
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 12
+                                                    req:
+                                                    - metaclass.pm
+                                                  - line: 14
+                                                    req:
+                                                    - Moose/Meta/Attribute.pm:
+                                                        /usr/local/lib/perl/5.10.1/Moose/Meta/Attribute.pm:
+                                                        - line: 10
+                                                          req:
+                                                          - strict.pm
+                                                        - line: 11
+                                                          req:
+                                                          - warnings.pm
+                                                        - line: 13
+                                                          req:
+                                                          - Class/MOP.pm
+                                                        - line: 14
+                                                          req:
+                                                          - Scalar/Util.pm
+                                                        - line: 15
+                                                          req:
+                                                          - List/MoreUtils.pm
+                                                        - line: 16
+                                                          req:
+                                                          - Try/Tiny.pm
+                                                        - line: 17
+                                                          req:
+                                                          - overload.pm
+                                                        - line: 19
+                                                          req:
+                                                          - Moose/Deprecated.pm
+                                                        - line: 20
+                                                          req:
+                                                          - Moose/Meta/Method/Accessor.pm:
+                                                              /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Accessor.pm:
+                                                              - line: 10
+                                                                req:
+                                                                - strict.pm
+                                                              - line: 11
+                                                                req:
+                                                                - warnings.pm
+                                                              - line: 13
+                                                                req:
+                                                                - Try/Tiny.pm
+                                                              - line: 16
+                                                                req:
+                                                                - base.pm
+                                                        - line: 21
+                                                          req:
+                                                          - Moose/Meta/Method/Delegation.pm:
+                                                              /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Delegation.pm:
+                                                              - line: 10
+                                                                req:
+                                                                - strict.pm
+                                                              - line: 11
+                                                                req:
+                                                                - warnings.pm
+                                                              - line: 13
+                                                                req:
+                                                                - Carp.pm
+                                                              - line: 14
+                                                                req:
+                                                                - Scalar/Util.pm
+                                                              - line: 17
+                                                                req:
+                                                                - base.pm
+                                                        - line: 22
+                                                          req:
+                                                          - Moose/Util.pm
+                                                        - line: 23
+                                                          req:
+                                                          - Moose/Util/TypeConstraints.pm
+                                                        - line: 24
+                                                          req:
+                                                          - Class/MOP/MiniTrait.pm
+                                                        - line: 26
+                                                          req:
+                                                          - base.pm
+                                                  - line: 15
+                                                    req:
+                                                    - Moose/Util/TypeConstraints.pm
+                                            - line: 40
+                                              req:
+                                              - Moose/Meta/TypeCoercion/Union.pm
+                                            - line: 41
+                                              req:
+                                              - Moose/Meta/TypeConstraint/Registry.pm:
+                                                  /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Registry.pm:
+                                                  - line: 10
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 11
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 12
+                                                    req:
+                                                    - metaclass.pm
+                                                  - line: 14
+                                                    req:
+                                                    - Scalar/Util.pm
+                                                  - line: 16
+                                                    req:
+                                                    - base.pm
+                                            - line: 42
+                                              req:
+                                              - Moose/Util/TypeConstraints/OptimizedConstraints.pm:
+                                                  /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints/OptimizedConstraints.pm:
+                                                  - line: 9
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 10
+                                                    req:
+                                                    - warnings.pm
+                                                  - line: 12
+                                                    req:
+                                                    - Class/MOP.pm
+                                                  - line: 13
+                                                    req:
+                                                    - Moose/Deprecated.pm
+                                                  - line: 14
+                                                    req:
+                                                    - Scalar/Util.pm
+                                            - line: 68
+                                              req:
+                                              - strict.pm
+                                            - line: 598
+                                              req:
+                                              - re.pm:
+                                                  /usr/lib/perl/5.10/re.pm:
+                                                  - line: 4
+                                                    req:
+                                                    - strict.pm
+                                                  - line: 5
+                                                    req:
+                                                    - warnings.pm
+                                            - line: 651
+                                              req:
+                                              - warnings.pm
+                                            - line: 657
+                                              req:
+                                              - warnings.pm
+                                            - line: 662
+                                              req:
+                                              - warnings.pm
+                                            - line: 678
+                                              req:
+                                              - warnings.pm
+                                - line: 15
+                                  req:
+                                  - DBI.pm:
+                                      /usr/lib/perl5/DBI.pm:
+                                      - line: 156
+                                        req:
+                                        - Carp.pm
+                                      - line: 157
+                                        req:
+                                        - DynaLoader.pm
+                                      - line: 158
+                                        req:
+                                        - Exporter.pm
+                                      - line: 269
+                                        req:
+                                        - strict.pm
+                                      - line: 273
+                                        req:
+                                        - strict.pm
+                                      - line: 531
+                                        req:
+                                        - strict.pm
+                                      - line: 688
+                                        req:
+                                        - strict.pm
+                                      - line: 800
+                                        req:
+                                        - strict.pm
+                                      - line: 834
+                                        req:
+                                        - strict.pm
+                                      - line: 863
+                                        req:
+                                        - strict.pm
+                                      - line: 960
+                                        req:
+                                        - strict.pm
+                                      - line: 1031
+                                        req:
+                                        - strict.pm
+                                      - line: 287
+                                        req:
+                                        - Scalar/Util.pm
+                    - line: 13
+                      req:
+                      - List/MoreUtils.pm
+                    - line: 14
+                      req:
+                      - Moose/Util/MetaRole.pm:
+                          /usr/local/lib/perl/5.10.1/Moose/Util/MetaRole.pm:
+                          - line: 9
+                            req:
+                            - strict.pm
+                          - line: 10
+                            req:
+                            - warnings.pm
+                          - line: 11
+                            req:
+                            - Scalar/Util.pm
+                          - line: 13
+                            req:
+                            - Carp.pm
+                          - line: 14
+                            req:
+                            - List/MoreUtils.pm
+                          - line: 15
+                            req:
+                            - List/Util.pm
+                          - line: 16
+                            req:
+                            - Moose/Deprecated.pm
+                          - line: 17
+                            req:
+                            - Scalar/Util.pm
+                    - line: 15
+                      req:
+                      - Scalar/Util.pm
+                    - line: 16
+                      req:
+                      - Sub/Exporter.pm
+                    - line: 17
+                      req:
+                      - Sub/Name.pm
+                    - line: 117
+                      req:
+                      - strict.pm
+                    - line: 118
+                      req:
+                      - warnings.pm
+                    - line: 269
+                      req:
+                      - strict.pm
+                    - line: 564
+                      req:
+                      - strict.pm
+                    - line: 574
+                      req:
+                      - strict.pm
+              - line: 19
+                req:
+                - Class/MOP.pm
+              - line: 26
+                req:
+                - Moose/Meta/Class.pm
+              - line: 27
+                req:
+                - Moose/Meta/TypeConstraint.pm
+              - line: 28
+                req:
+                - Moose/Meta/TypeCoercion.pm
+              - line: 29
+                req:
+                - Moose/Meta/Attribute.pm
+              - line: 30
+                req:
+                - Moose/Meta/Instance.pm:
+                    /usr/local/lib/perl/5.10.1/Moose/Meta/Instance.pm:
+                    - line: 10
+                      req:
+                      - strict.pm
+                    - line: 11
+                      req:
+                      - warnings.pm
+                    - line: 13
+                      req:
+                      - Class/MOP/MiniTrait.pm
+                    - line: 15
+                      req:
+                      - base.pm
+              - line: 32
+                req:
+                - Moose/Object.pm:
+                    /usr/local/lib/perl/5.10.1/Moose/Object.pm:
+                    - line: 10
+                      req:
+                      - strict.pm
+                    - line: 11
+                      req:
+                      - warnings.pm
+                    - line: 13
+                      req:
+                      - Carp.pm
+                    - line: 14
+                      req:
+                      - Devel/GlobalDestruction.pm
+                    - line: 15
+                      req:
+                      - MRO/Compat.pm
+                    - line: 16
+                      req:
+                      - Scalar/Util.pm
+                    - line: 17
+                      req:
+                      - Try/Tiny.pm
+                    - line: 19
+                      req:
+                      - if.pm:
+                          /usr/share/perl/5.10/if.pm:
+                          - line: 13
+                            req:
+                            - Moose/Meta/Class.pm
+                          - line: 13
+                            req:
+                            - metaclass.pm
+                    - line: 20
+                      req:
+                      - if.pm
+                    - line: 85
+                      req:
+                      - strict.pm
+              - line: 34
+                req:
+                - Moose/Meta/Role.pm
+              - line: 35
+                req:
+                - Moose/Meta/Role/Composite.pm:
+                    /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Composite.pm:
+                    - line: 9
+                      req:
+                      - strict.pm
+                    - line: 10
+                      req:
+                      - warnings.pm
+                    - line: 11
+                      req:
+                      - metaclass.pm
+                    - line: 13
+                      req:
+                      - Scalar/Util.pm
+                    - line: 15
+                      req:
+                      - base.pm
+              - line: 36
+                req:
+                - Moose/Meta/Role/Application.pm:
+                    /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application.pm:
+                    - line: 9
+                      req:
+                      - strict.pm
+                    - line: 10
+                      req:
+                      - warnings.pm
+                    - line: 11
+                      req:
+                      - metaclass.pm
+              - line: 37
+                req:
+                - Moose/Meta/Role/Application/RoleSummation.pm:
+                    /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/RoleSummation.pm:
+                    - line: 9
+                      req:
+                      - strict.pm
+                    - line: 10
+                      req:
+                      - warnings.pm
+                    - line: 11
+                      req:
+                      - metaclass.pm
+                    - line: 13
+                      req:
+                      - Scalar/Util.pm
+                    - line: 15
+                      req:
+                      - Moose/Meta/Role/Composite.pm
+                    - line: 17
+                      req:
+                      - base.pm
+              - line: 38
+                req:
+                - Moose/Meta/Role/Application/ToClass.pm:
+                    /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToClass.pm:
+                    - line: 9
+                      req:
+                      - strict.pm
+                    - line: 10
+                      req:
+                      - warnings.pm
+                    - line: 11
+                      req:
+                      - metaclass.pm
+                    - line: 13
+                      req:
+                      - Moose/Util.pm
+                    - line: 14
+                      req:
+                      - Scalar/Util.pm
+                    - line: 16
+                      req:
+                      - base.pm
+              - line: 39
+                req:
+                - Moose/Meta/Role/Application/ToRole.pm:
+                    /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToRole.pm:
+                    - line: 9
+                      req:
+                      - strict.pm
+                    - line: 10
+                      req:
+                      - warnings.pm
+                    - line: 11
+                      req:
+                      - metaclass.pm
+                    - line: 13
+                      req:
+                      - Scalar/Util.pm
+                    - line: 15
+                      req:
+                      - base.pm
+              - line: 40
+                req:
+                - Moose/Meta/Role/Application/ToInstance.pm:
+                    /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToInstance.pm:
+                    - line: 9
+                      req:
+                      - strict.pm
+                    - line: 10
+                      req:
+                      - warnings.pm
+                    - line: 11
+                      req:
+                      - metaclass.pm
+                    - line: 13
+                      req:
+                      - Scalar/Util.pm
+                    - line: 15
+                      req:
+                      - base.pm
+              - line: 42
+                req:
+                - Moose/Util/TypeConstraints.pm
+              - line: 43
+                req:
+                - Moose/Util.pm
+              - line: 45
+                req:
+                - Moose/Meta/Attribute/Native.pm
+        - line: 7
+          req:
+          - Data/Dumper.pm:
+              /usr/lib/perl/5.10/Data/Dumper.pm:
+              - line: 20
+                req:
+                - Carp.pm
+              - line: 31
+                req:
+                - XSLoader.pm
+              - line: 683
+                req:
+                - bytes.pm
+              - line: 17
+                req:
+                - Exporter.pm
+              - line: 18
+                req:
+                - overload.pm
