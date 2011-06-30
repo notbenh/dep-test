@@ -1,0 +1,3533 @@
+Class::MOP::Class::Immutable::Trait
+  -----
+  trace: 3-1-7-3-67-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class/Immutable/Trait.pm
+  line: 9
+  -----
+  trace: 3-1-7-3-67-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class/Immutable/Trait.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-67-3
+  req: MRO/Compat.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class/Immutable/Trait.pm
+  line: 12
+  -----
+  trace: 3-1-7-3-67-4
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class/Immutable/Trait.pm
+  line: 14
+  -----
+  trace: 3-1-7-3-67-5
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class/Immutable/Trait.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-67-6
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class/Immutable/Trait.pm
+  line: 36
+  -----
+  trace: 3-1-7-3-67-7
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class/Immutable/Trait.pm
+  line: 46
+Class::MOP::Method::Accessor
+  -----
+  trace: 3-1-7-3-12-5-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Accessor.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-12-5-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Accessor.pm
+  line: 11
+  -----
+  trace: 3-1-7-3-12-5-3
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Accessor.pm
+  line: 13
+  -----
+  trace: 3-1-7-3-12-5-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Accessor.pm
+  line: 14
+  -----
+  trace: 3-1-7-3-12-5-5
+  req: Try/Tiny.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Accessor.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-12-5-6
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Accessor.pm
+  line: 17
+Sub::Exporter
+  -----
+  trace: 3-1-7-3-12-5-7-4-3-4
+  req: Carp.pm
+  file: /usr/local/share/perl/5.10.1/Sub/Exporter.pm
+  line: 6
+  -----
+  trace: 3-1-7-3-12-5-7-4-3-5
+  req: Data/OptList.pm
+  file: /usr/local/share/perl/5.10.1/Sub/Exporter.pm
+  line: 7
+  -----
+  trace: 3-1-7-3-12-5-7-4-3-6
+  req: Params/Util.pm
+  file: /usr/local/share/perl/5.10.1/Sub/Exporter.pm
+  line: 8
+  -----
+  trace: 3-1-7-3-12-5-7-4-3-7
+  req: Sub/Install.pm
+  file: /usr/local/share/perl/5.10.1/Sub/Exporter.pm
+  line: 9
+Moose::Meta::TypeConstraint::Parameterizable
+  -----
+  trace: 3-1-11-4-12-8-6-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Parameterizable.pm
+  line: 9
+  -----
+  trace: 3-1-11-4-12-8-6-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Parameterizable.pm
+  line: 10
+  -----
+  trace: 3-1-11-4-12-8-6-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Parameterizable.pm
+  line: 11
+  -----
+  trace: 3-1-11-4-12-8-6-4
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Parameterizable.pm
+  line: 13
+  -----
+  trace: 3-1-11-4-12-8-6-5
+  req: Moose/Meta/TypeConstraint/Parameterized.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Parameterizable.pm
+  line: 14
+  -----
+  trace: 3-1-11-4-12-8-6-6
+  req: Moose/Util/TypeConstraints.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Parameterizable.pm
+  line: 15
+Moose::Meta::TypeConstraint::DuckType
+  -----
+  trace: 3-1-11-4-12-13-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/DuckType.pm
+  line: 9
+  -----
+  trace: 3-1-11-4-12-13-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/DuckType.pm
+  line: 10
+  -----
+  trace: 3-1-11-4-12-13-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/DuckType.pm
+  line: 11
+  -----
+  trace: 3-1-11-4-12-13-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/DuckType.pm
+  line: 13
+  -----
+  trace: 3-1-11-4-12-13-5
+  req: List/MoreUtils.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/DuckType.pm
+  line: 14
+  -----
+  trace: 3-1-11-4-12-13-6
+  req: Moose/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/DuckType.pm
+  line: 15
+  -----
+  trace: 3-1-11-4-12-13-7
+  req: Moose/Util/TypeConstraints.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/DuckType.pm
+  line: 17
+  -----
+  trace: 3-1-11-4-12-13-8
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/DuckType.pm
+  line: 19
+Config
+  -----
+  trace: 3-1-6-3-4-4-1-1
+  req: strict.pm
+  file: /usr/lib/perl/5.10/Config.pm
+  line: 9
+  -----
+  trace: 3-1-6-3-4-4-1-2
+  req: strict.pm
+  file: /usr/lib/perl/5.10/Config.pm
+  line: 35
+  -----
+  trace: 3-1-6-3-4-4-3
+  req: Config_heavy.pl
+  file: /usr/lib/perl/5.10/Config.pm
+  line: 69
+  -----
+  trace: 3-1-6-3-4-4-3-1
+  req: strict.pm
+  file: /usr/lib/perl/5.10/Config_heavy.pl
+  line: 5
+  -----
+  trace: 3-1-6-3-4-4-3-2
+  req: Config_git.pl
+  file: /usr/lib/perl/5.10/Config_heavy.pl
+  line: 1211
+This::DB
+  -----
+  trace: 3-2-1
+  req: Moose/Role.pm
+  file: This/DB.pm
+  line: 2
+  -----
+  trace: 5
+  req: DBI.pm
+  file: This/DB.pm
+  line: 15
+Moose::Meta::Role::Application::ToRole
+  -----
+  trace: 3-1-20-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToRole.pm
+  line: 9
+  -----
+  trace: 3-1-20-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToRole.pm
+  line: 10
+  -----
+  trace: 3-1-20-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToRole.pm
+  line: 11
+  -----
+  trace: 3-1-20-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToRole.pm
+  line: 13
+  -----
+  trace: 3-1-20-5
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToRole.pm
+  line: 15
+if
+  -----
+  trace: 3-1-14-9
+  req: Moose/Meta/Class.pm
+  file: /usr/share/perl/5.10/if.pm
+  line: 13
+  -----
+  trace: 3-1-14-11
+  req: metaclass.pm
+  file: /usr/share/perl/5.10/if.pm
+  line: 13
+maybe::next
+  -----
+  trace: 3-1-7-3-4-4-3
+  req: XSLoader.pm
+  file: /usr/lib/perl/5.10/mro.pm
+  line: 40
+Moose::Meta::Class::Immutable::Trait
+  -----
+  trace: 3-1-9-12-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class/Immutable/Trait.pm
+  line: 9
+  -----
+  trace: 3-1-9-12-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class/Immutable/Trait.pm
+  line: 10
+  -----
+  trace: 3-1-9-12-3
+  req: Class/MOP.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class/Immutable/Trait.pm
+  line: 12
+  -----
+  trace: 3-1-9-12-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class/Immutable/Trait.pm
+  line: 13
+  -----
+  trace: 3-1-9-12-5
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class/Immutable/Trait.pm
+  line: 15
+Moose::Meta::Role::Composite
+  -----
+  trace: 3-1-16-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Composite.pm
+  line: 9
+  -----
+  trace: 3-1-16-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Composite.pm
+  line: 10
+  -----
+  trace: 3-1-16-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Composite.pm
+  line: 11
+  -----
+  trace: 3-1-16-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Composite.pm
+  line: 13
+  -----
+  trace: 3-1-16-5
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Composite.pm
+  line: 15
+Class::MOP::Object
+  -----
+  trace: 3-1-7-3-11-3-7-6-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-11-3-7-6-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 11
+  -----
+  trace: 3-1-7-3-11-3-7-6-3
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 13
+  -----
+  trace: 3-1-7-3-11-3-7-6-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 14
+  -----
+  trace: 3-1-7-3-20
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-21
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-22
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-23
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-24
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-25
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-26
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-27
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-28
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-29
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-42
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-43
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-44
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-45
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-46
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-47
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-48
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-49
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-50
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-51
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-52
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-53
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-54
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-55
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-56
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-57
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-58
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-59
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-60
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-61
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-62
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-63
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-64
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Object.pm
+  line: 19
+Moose::Meta::Method::Overridden
+  -----
+  trace: 3-1-9-9-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Overridden.pm
+  line: 9
+  -----
+  trace: 3-1-9-9-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Overridden.pm
+  line: 10
+  -----
+  trace: 3-1-9-9-3
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Overridden.pm
+  line: 12
+DynaLoader
+  -----
+  trace: 3-1-6-3-4-4-1
+  req: Config.pm
+  file: /usr/lib/perl/5.10/DynaLoader.pm
+  line: 24
+  -----
+  trace: 3-1-6-3-4-4-2
+  req: AutoLoader.pm
+  file: /usr/lib/perl/5.10/DynaLoader.pm
+  line: 21
+Moose::Meta::Role::Application::ToInstance
+  -----
+  trace: 3-1-21-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToInstance.pm
+  line: 9
+  -----
+  trace: 3-1-21-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToInstance.pm
+  line: 10
+  -----
+  trace: 3-1-21-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToInstance.pm
+  line: 11
+  -----
+  trace: 3-1-21-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToInstance.pm
+  line: 13
+  -----
+  trace: 3-1-21-5
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToInstance.pm
+  line: 15
+Class::MOP::Deprecated
+  -----
+  trace: 3-1-7-3-66-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Deprecated.pm
+  line: 9
+  -----
+  trace: 3-1-7-3-66-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Deprecated.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-66-3
+  req: Package/DeprecationManager.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Deprecated.pm
+  line: 51
+Class::MOP::Method::Meta
+  -----
+  trace: 3-1-7-3-11-3-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Meta.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-11-3-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Meta.pm
+  line: 11
+  -----
+  trace: 3-1-7-3-11-3-3
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Meta.pm
+  line: 13
+  -----
+  trace: 3-1-7-3-11-3-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Meta.pm
+  line: 14
+  -----
+  trace: 3-1-7-3-11-3-5
+  req: constant.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Meta.pm
+  line: 16
+  -----
+  trace: 3-1-7-3-11-3-6
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Meta.pm
+  line: 18
+List::MoreUtils
+  -----
+  trace: 3-1-6-3-4-1
+  ver: 5.00503
+  file: /usr/local/lib/perl/5.10.1/List/MoreUtils.pm
+  line: 3
+  -----
+  trace: 3-1-6-3-4-2
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/List/MoreUtils.pm
+  line: 4
+  -----
+  trace: 3-1-6-3-4-3
+  req: Exporter.pm
+  file: /usr/local/lib/perl/5.10.1/List/MoreUtils.pm
+  line: 5
+  -----
+  trace: 3-1-6-3-4-4
+  req: DynaLoader.pm
+  file: /usr/local/lib/perl/5.10.1/List/MoreUtils.pm
+  line: 6
+  -----
+  trace: 3-1-6-3-4-5
+  req: vars.pm
+  file: /usr/local/lib/perl/5.10.1/List/MoreUtils.pm
+  line: 8
+DBI
+  -----
+  trace: 5-1
+  req: Carp.pm
+  file: /usr/lib/perl5/DBI.pm
+  line: 156
+  -----
+  trace: 5-2
+  req: DynaLoader.pm
+  file: /usr/lib/perl5/DBI.pm
+  line: 157
+  -----
+  trace: 5-3
+  req: Exporter.pm
+  file: /usr/lib/perl5/DBI.pm
+  line: 158
+  -----
+  trace: 5-5
+  req: strict.pm
+  file: /usr/lib/perl5/DBI.pm
+  line: 269
+  -----
+  trace: 5-6
+  req: strict.pm
+  file: /usr/lib/perl5/DBI.pm
+  line: 273
+  -----
+  trace: 5-7
+  req: strict.pm
+  file: /usr/lib/perl5/DBI.pm
+  line: 531
+  -----
+  trace: 5-8
+  req: strict.pm
+  file: /usr/lib/perl5/DBI.pm
+  line: 688
+  -----
+  trace: 5-9
+  req: strict.pm
+  file: /usr/lib/perl5/DBI.pm
+  line: 800
+  -----
+  trace: 5-10
+  req: strict.pm
+  file: /usr/lib/perl5/DBI.pm
+  line: 834
+  -----
+  trace: 5-11
+  req: strict.pm
+  file: /usr/lib/perl5/DBI.pm
+  line: 863
+  -----
+  trace: 5-12
+  req: strict.pm
+  file: /usr/lib/perl5/DBI.pm
+  line: 960
+  -----
+  trace: 5-13
+  req: strict.pm
+  file: /usr/lib/perl5/DBI.pm
+  line: 1031
+  -----
+  trace: 5-19
+  req: Scalar/Util.pm
+  file: /usr/lib/perl5/DBI.pm
+  line: 287
+Class::MOP::Module
+  -----
+  trace: 3-1-7-3-12-14-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Module.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-12-14-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Module.pm
+  line: 11
+  -----
+  trace: 3-1-7-3-12-14-3
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Module.pm
+  line: 13
+  -----
+  trace: 3-1-7-3-12-14-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Module.pm
+  line: 14
+  -----
+  trace: 3-1-7-3-12-14-5
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Module.pm
+  line: 16
+base
+  -----
+  trace: 3-1-7-3-9-4-1
+  req: strict.pm
+  file: /usr/share/perl/5.10/base.pm
+  line: 3
+  -----
+  trace: 3-1-7-3-9-4-2
+  req: vars.pm
+  file: /usr/share/perl/5.10/base.pm
+  line: 4
+  -----
+  trace: 3-1-7-3-9-5
+  req: Class/MOP/Mixin.pm
+  file: (eval 16)
+  line: 3
+  -----
+  trace: 3-1-7-3-11-3-7
+  req: Class/MOP/Method.pm
+  file: (eval 17)
+  line: 3
+  -----
+  trace: 3-1-7-3-11-3-7-6
+  req: Class/MOP/Object.pm
+  file: (eval 18)
+  line: 3
+  -----
+  trace: 3-1-7-3-12-5-7
+  req: Class/MOP/Method/Generated.pm
+  file: (eval 19)
+  line: 3
+  -----
+  trace: 3-1-7-3-12-6-7
+  req: Class/MOP/Method/Inlined.pm
+  file: (eval 20)
+  line: 3
+  -----
+  trace: 3-1-7-3-12-14
+  req: Class/MOP/Module.pm
+  file: (eval 21)
+  line: 3
+  -----
+  trace: 3-1-7-3-12-14-6
+  req: Class/MOP/Package.pm
+  file: (eval 22)
+  line: 3
+  -----
+  trace: 3-1-9-9-4
+  req: Moose/Meta/Method.pm
+  file: (eval 24)
+  line: 3
+  -----
+  trace: 3-1-11-4-15
+  req: Moose/Meta/Mixin/AttributeCore.pm
+  file: (eval 61)
+  line: 3
+Eval::Closure
+  -----
+  trace: 3-1-7-3-12-5-7-4-1
+  req: strict.pm
+  file: /usr/local/share/perl/5.10.1/Eval/Closure.pm
+  line: 5
+  -----
+  trace: 3-1-7-3-12-5-7-4-2
+  req: warnings.pm
+  file: /usr/local/share/perl/5.10.1/Eval/Closure.pm
+  line: 6
+  -----
+  trace: 3-1-7-3-12-5-7-4-3
+  req: Sub/Exporter.pm
+  file: /usr/local/share/perl/5.10.1/Eval/Closure.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-12-5-7-4-4
+  req: Carp.pm
+  file: /usr/local/share/perl/5.10.1/Eval/Closure.pm
+  line: 13
+  -----
+  trace: 3-1-7-3-12-5-7-4-5
+  req: overload.pm
+  file: /usr/local/share/perl/5.10.1/Eval/Closure.pm
+  line: 14
+  -----
+  trace: 3-1-7-3-12-5-7-4-6
+  req: Scalar/Util.pm
+  file: /usr/local/share/perl/5.10.1/Eval/Closure.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-12-5-7-4-7
+  req: Try/Tiny.pm
+  file: /usr/local/share/perl/5.10.1/Eval/Closure.pm
+  line: 16
+Class::MOP::Method::Generated
+  -----
+  trace: 3-1-7-3-12-5-7-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Generated.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-12-5-7-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Generated.pm
+  line: 11
+  -----
+  trace: 3-1-7-3-12-5-7-3
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Generated.pm
+  line: 13
+  -----
+  trace: 3-1-7-3-12-5-7-4
+  req: Eval/Closure.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Generated.pm
+  line: 14
+  -----
+  trace: 3-1-7-3-12-5-7-5
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Generated.pm
+  line: 16
+vars
+  -----
+  trace: 3-1-4-2-1
+  ver: 5.006
+  file: /usr/share/perl/5.10/vars.pm
+  line: 3
+  -----
+  trace: 3-1-4-2-2
+  req: warnings/register.pm
+  file: /usr/share/perl/5.10/vars.pm
+  line: 7
+  -----
+  trace: 3-1-4-2-3
+  req: strict.pm
+  file: /usr/share/perl/5.10/vars.pm
+  line: 8
+Data::OptList
+  -----
+  trace: 3-1-7-3-7-3
+  req: List/Util.pm
+  file: /usr/local/share/perl/5.10.1/Data/OptList.pm
+  line: 9
+  -----
+  trace: 3-1-7-3-7-4
+  req: Params/Util.pm
+  file: /usr/local/share/perl/5.10.1/Data/OptList.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-7-5
+  req: Sub/Install.pm
+  file: /usr/local/share/perl/5.10.1/Data/OptList.pm
+  line: 11
+Tie::Hash
+  -----
+  trace: 6-10-1
+  req: Carp.pm
+  file: /usr/share/perl/5.10/Tie/Hash.pm
+  line: 5
+  -----
+  trace: 6-10-2
+  req: warnings/register.pm
+  file: /usr/share/perl/5.10/Tie/Hash.pm
+  line: 6
+Moose::Exporter
+  -----
+  trace: 3-1-7-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Exporter.pm
+  line: 9
+  -----
+  trace: 3-1-7-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Exporter.pm
+  line: 10
+  -----
+  trace: 3-1-7-3
+  req: Class/MOP.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Exporter.pm
+  line: 12
+  -----
+  trace: 3-1-7-4
+  req: List/MoreUtils.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Exporter.pm
+  line: 13
+  -----
+  trace: 3-1-7-5
+  req: Moose/Util/MetaRole.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Exporter.pm
+  line: 14
+  -----
+  trace: 3-1-7-6
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Exporter.pm
+  line: 15
+  -----
+  trace: 3-1-7-7
+  req: Sub/Exporter.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Exporter.pm
+  line: 16
+  -----
+  trace: 3-1-7-8
+  req: Sub/Name.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Exporter.pm
+  line: 17
+  -----
+  trace: 3-1-7-9
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Exporter.pm
+  line: 117
+  -----
+  trace: 3-1-7-10
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Exporter.pm
+  line: 118
+  -----
+  trace: 3-1-7-11
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Exporter.pm
+  line: 269
+  -----
+  trace: 3-1-7-12
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Exporter.pm
+  line: 564
+  -----
+  trace: 3-1-7-13
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Exporter.pm
+  line: 574
+DBI::_firesafe
+  -----
+  trace: 6
+  req: DBD/SQLite.pm
+  file: (eval 146)
+  line: 3
+Moose::Util
+  -----
+  trace: 3-1-9-16-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util.pm
+  line: 9
+  -----
+  trace: 3-1-9-16-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util.pm
+  line: 10
+  -----
+  trace: 3-1-9-16-3
+  req: Data/OptList.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util.pm
+  line: 12
+  -----
+  trace: 3-1-9-16-4
+  req: Params/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util.pm
+  line: 13
+  -----
+  trace: 3-1-9-16-5
+  req: Sub/Exporter.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util.pm
+  line: 14
+  -----
+  trace: 3-1-9-16-6
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util.pm
+  line: 15
+  -----
+  trace: 3-1-9-16-7
+  req: List/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util.pm
+  line: 16
+  -----
+  trace: 3-1-9-16-8
+  req: List/MoreUtils.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util.pm
+  line: 17
+  -----
+  trace: 3-1-9-16-9
+  req: overload.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util.pm
+  line: 18
+  -----
+  trace: 3-1-9-16-10
+  req: Class/MOP.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util.pm
+  line: 19
+Devel::GlobalDestruction
+  -----
+  trace: 3-1-7-3-12-14-6-5-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Devel/GlobalDestruction.pm
+  line: 5
+  -----
+  trace: 3-1-7-3-12-14-6-5-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Devel/GlobalDestruction.pm
+  line: 6
+  -----
+  trace: 3-1-7-3-12-14-6-5-3
+  req: XSLoader.pm
+  file: /usr/local/lib/perl/5.10.1/Devel/GlobalDestruction.pm
+  line: 8
+  -----
+  trace: 3-1-7-3-12-14-6-5-4
+  req: Sub/Exporter.pm
+  file: /usr/local/lib/perl/5.10.1/Devel/GlobalDestruction.pm
+  line: 15
+DBD::SQLite::dr
+  -----
+  trace: 6-9
+  req: locale.pm
+  file: /usr/lib/perl5/DBD/SQLite.pm
+  line: 152
+Class::MOP::Instance
+  -----
+  trace: 3-1-7-3-12-3-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Instance.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-12-3-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Instance.pm
+  line: 11
+  -----
+  trace: 3-1-7-3-12-3-3
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Instance.pm
+  line: 13
+  -----
+  trace: 3-1-7-3-12-3-4
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Instance.pm
+  line: 15
+Class::MOP::Class
+  -----
+  trace: 3-1-7-3-12-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-12-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class.pm
+  line: 11
+  -----
+  trace: 3-1-7-3-12-3
+  req: Class/MOP/Instance.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class.pm
+  line: 13
+  -----
+  trace: 3-1-7-3-12-4
+  req: Class/MOP/Method/Wrapped.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class.pm
+  line: 14
+  -----
+  trace: 3-1-7-3-12-5
+  req: Class/MOP/Method/Accessor.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-12-6
+  req: Class/MOP/Method/Constructor.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class.pm
+  line: 16
+  -----
+  trace: 3-1-7-3-12-7
+  req: Class/MOP/MiniTrait.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class.pm
+  line: 17
+  -----
+  trace: 3-1-7-3-12-8
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-12-9
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class.pm
+  line: 20
+  -----
+  trace: 3-1-7-3-12-10
+  req: Sub/Name.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class.pm
+  line: 21
+  -----
+  trace: 3-1-7-3-12-11
+  req: Try/Tiny.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class.pm
+  line: 22
+  -----
+  trace: 3-1-7-3-12-12
+  req: List/MoreUtils.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class.pm
+  line: 23
+  -----
+  trace: 3-1-7-3-12-13
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Class.pm
+  line: 27
+Moose::Meta::TypeConstraint::Enum
+  -----
+  trace: 3-1-11-4-12-12-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Enum.pm
+  line: 9
+  -----
+  trace: 3-1-11-4-12-12-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Enum.pm
+  line: 10
+  -----
+  trace: 3-1-11-4-12-12-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Enum.pm
+  line: 11
+  -----
+  trace: 3-1-11-4-12-12-4
+  req: Moose/Util/TypeConstraints.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Enum.pm
+  line: 13
+  -----
+  trace: 3-1-11-4-12-12-5
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Enum.pm
+  line: 15
+Class::MOP
+  -----
+  trace: 3-1-7-3-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 11
+  -----
+  trace: 3-1-7-3-3
+  ver: 5.008
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 13
+  -----
+  trace: 3-1-7-3-4
+  req: MRO/Compat.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-5
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 17
+  -----
+  trace: 3-1-7-3-6
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 18
+  -----
+  trace: 3-1-7-3-7
+  req: Data/OptList.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 19
+  -----
+  trace: 3-1-7-3-8
+  req: Try/Tiny.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 20
+  -----
+  trace: 3-1-7-3-9
+  req: Class/MOP/Mixin/AttributeCore.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 22
+  -----
+  trace: 3-1-7-3-10
+  req: Class/MOP/Mixin/HasAttributes.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 23
+  -----
+  trace: 3-1-7-3-11
+  req: Class/MOP/Mixin/HasMethods.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 24
+  -----
+  trace: 3-1-7-3-12
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 25
+  -----
+  trace: 3-1-7-3-13
+  req: Class/MOP/Attribute.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 26
+  -----
+  trace: 3-1-7-3-14
+  req: Class/MOP/Method.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 27
+  -----
+  trace: 3-1-7-3-66
+  req: Class/MOP/Deprecated.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 683
+  -----
+  trace: 3-1-7-3-67
+  req: Class/MOP/Class/Immutable/Trait.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 117
+  -----
+  trace: 3-1-9-9-4-5
+  req: Moose/Meta/Object/Trait.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 117
+  -----
+  trace: 3-2
+  req: This/DB.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP.pm
+  line: 117
+Class::MOP::Mixin::HasMethods
+  -----
+  trace: 3-1-7-3-11-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/HasMethods.pm
+  line: 9
+  -----
+  trace: 3-1-7-3-11-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/HasMethods.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-11-3
+  req: Class/MOP/Method/Meta.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/HasMethods.pm
+  line: 12
+  -----
+  trace: 3-1-7-3-11-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/HasMethods.pm
+  line: 14
+  -----
+  trace: 3-1-7-3-11-5
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/HasMethods.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-11-6
+  req: Sub/Name.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/HasMethods.pm
+  line: 16
+  -----
+  trace: 3-1-7-3-11-7
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/HasMethods.pm
+  line: 18
+Moose::Meta::Role
+  -----
+  trace: 3-1-15-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role.pm
+  line: 10
+  -----
+  trace: 3-1-15-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role.pm
+  line: 11
+  -----
+  trace: 3-1-15-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role.pm
+  line: 12
+  -----
+  trace: 3-1-15-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role.pm
+  line: 14
+  -----
+  trace: 3-1-15-5
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role.pm
+  line: 15
+  -----
+  trace: 3-1-15-6
+  req: Devel/GlobalDestruction.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role.pm
+  line: 16
+  -----
+  trace: 3-1-15-7
+  req: Moose/Meta/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role.pm
+  line: 18
+  -----
+  trace: 3-1-15-8
+  req: Moose/Meta/Role/Attribute.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role.pm
+  line: 19
+  -----
+  trace: 3-1-15-9
+  req: Moose/Meta/Role/Method.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role.pm
+  line: 20
+  -----
+  trace: 3-1-15-10
+  req: Moose/Meta/Role/Method/Required.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role.pm
+  line: 21
+  -----
+  trace: 3-1-15-11
+  req: Moose/Meta/Role/Method/Conflicting.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role.pm
+  line: 22
+  -----
+  trace: 3-1-15-12
+  req: Moose/Meta/Method/Meta.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role.pm
+  line: 23
+  -----
+  trace: 3-1-15-13
+  req: Moose/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role.pm
+  line: 24
+  -----
+  trace: 3-1-15-14
+  req: Class/MOP/MiniTrait.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role.pm
+  line: 25
+  -----
+  trace: 3-1-15-15
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role.pm
+  line: 29
+Package::Stash::XS
+  -----
+  trace: 3-1-7-3-12-14-6-6-3-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Package/Stash/XS.pm
+  line: 5
+  -----
+  trace: 3-1-7-3-12-14-6-6-3-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Package/Stash/XS.pm
+  line: 6
+  -----
+  trace: 3-1-7-3-12-14-6-6-3-3
+  req: XSLoader.pm
+  file: /usr/local/lib/perl/5.10.1/Package/Stash/XS.pm
+  line: 9
+Moose::Util::TypeConstraints
+  -----
+  trace: 3-1-11-4-12-1
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 10
+  -----
+  trace: 3-1-11-4-12-2
+  req: List/MoreUtils.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 11
+  -----
+  trace: 3-1-11-4-12-3
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 12
+  -----
+  trace: 3-1-11-4-12-4
+  req: Moose/Exporter.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 13
+  -----
+  trace: 3-1-11-4-12-5
+  req: Moose/Deprecated.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 30
+  -----
+  trace: 3-1-11-4-12-6
+  req: Moose/Meta/TypeConstraint.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 31
+  -----
+  trace: 3-1-11-4-12-7
+  req: Moose/Meta/TypeConstraint/Union.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 32
+  -----
+  trace: 3-1-11-4-12-8
+  req: Moose/Meta/TypeConstraint/Parameterized.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 33
+  -----
+  trace: 3-1-11-4-12-9
+  req: Moose/Meta/TypeConstraint/Parameterizable.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 34
+  -----
+  trace: 3-1-11-4-12-10
+  req: Moose/Meta/TypeConstraint/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 35
+  -----
+  trace: 3-1-11-4-12-11
+  req: Moose/Meta/TypeConstraint/Role.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 36
+  -----
+  trace: 3-1-11-4-12-12
+  req: Moose/Meta/TypeConstraint/Enum.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 37
+  -----
+  trace: 3-1-11-4-12-13
+  req: Moose/Meta/TypeConstraint/DuckType.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 38
+  -----
+  trace: 3-1-11-4-12-14
+  req: Moose/Meta/TypeCoercion.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 39
+  -----
+  trace: 3-1-11-4-12-15
+  req: Moose/Meta/TypeCoercion/Union.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 40
+  -----
+  trace: 3-1-11-4-12-16
+  req: Moose/Meta/TypeConstraint/Registry.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 41
+  -----
+  trace: 3-1-11-4-12-17
+  req: Moose/Util/TypeConstraints/OptimizedConstraints.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 42
+  -----
+  trace: 3-1-11-4-12-18
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 68
+  -----
+  trace: 3-1-11-4-12-19
+  req: re.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 598
+  -----
+  trace: 3-1-11-4-12-20
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 651
+  -----
+  trace: 3-1-11-4-12-21
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 657
+  -----
+  trace: 3-1-11-4-12-22
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 662
+  -----
+  trace: 3-1-11-4-12-23
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints.pm
+  line: 678
+DBD::_::st
+  -----
+  trace: 5-17
+  req: strict.pm
+  file: /usr/lib/perl5/DBI.pm
+  line: 1813
+Moose::Error::Default
+  -----
+  trace: 3-1-9-11-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Error/Default.pm
+  line: 9
+  -----
+  trace: 3-1-9-11-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Error/Default.pm
+  line: 10
+  -----
+  trace: 3-1-9-11-3
+  req: Carp/Heavy.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Error/Default.pm
+  line: 12
+  -----
+  trace: 3-1-9-11-4
+  req: Class/MOP/MiniTrait.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Error/Default.pm
+  line: 13
+  -----
+  trace: 3-1-9-11-5
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Error/Default.pm
+  line: 15
+Params::Util
+  -----
+  trace: 3-1-6-3-5-1
+  ver: 5.00503
+  file: /usr/local/lib/perl/5.10.1/Params/Util.pm
+  line: 58
+  -----
+  trace: 3-1-6-3-5-2
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Params/Util.pm
+  line: 59
+  -----
+  trace: 3-1-6-3-5-3
+  req: vars.pm
+  file: /usr/local/lib/perl/5.10.1/Params/Util.pm
+  line: 65
+  -----
+  trace: 3-1-6-3-5-4
+  req: overload.pm
+  file: /usr/local/lib/perl/5.10.1/Params/Util.pm
+  line: 60
+  -----
+  trace: 3-1-6-3-5-5
+  req: Exporter.pm
+  file: /usr/local/lib/perl/5.10.1/Params/Util.pm
+  line: 61
+  -----
+  trace: 3-1-6-3-5-6
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Params/Util.pm
+  line: 62
+  -----
+  trace: 3-1-6-3-5-7
+  req: DynaLoader.pm
+  file: /usr/local/lib/perl/5.10.1/Params/Util.pm
+  line: 63
+Class::MOP::Method::Inlined
+  -----
+  trace: 3-1-7-3-12-6-7-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Inlined.pm
+  line: 9
+  -----
+  trace: 3-1-7-3-12-6-7-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Inlined.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-12-6-7-3
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Inlined.pm
+  line: 12
+  -----
+  trace: 3-1-7-3-12-6-7-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Inlined.pm
+  line: 13
+  -----
+  trace: 3-1-7-3-12-6-7-5
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Inlined.pm
+  line: 15
+Class::MOP::Method::Constructor
+  -----
+  trace: 3-1-7-3-12-6-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Constructor.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-12-6-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Constructor.pm
+  line: 11
+  -----
+  trace: 3-1-7-3-12-6-3
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Constructor.pm
+  line: 13
+  -----
+  trace: 3-1-7-3-12-6-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Constructor.pm
+  line: 14
+  -----
+  trace: 3-1-7-3-12-6-5
+  req: Try/Tiny.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Constructor.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-12-6-6
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Constructor.pm
+  line: 17
+Moose::Meta::Role::Method
+  -----
+  trace: 3-1-15-9-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Method.pm
+  line: 10
+  -----
+  trace: 3-1-15-9-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Method.pm
+  line: 11
+  -----
+  trace: 3-1-15-9-3
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Method.pm
+  line: 13
+Moose::Meta::TypeConstraint::Role
+  -----
+  trace: 3-1-11-4-12-11-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Role.pm
+  line: 9
+  -----
+  trace: 3-1-11-4-12-11-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Role.pm
+  line: 10
+  -----
+  trace: 3-1-11-4-12-11-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Role.pm
+  line: 11
+  -----
+  trace: 3-1-11-4-12-11-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Role.pm
+  line: 13
+  -----
+  trace: 3-1-11-4-12-11-5
+  req: Moose/Util/TypeConstraints.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Role.pm
+  line: 14
+  -----
+  trace: 3-1-11-4-12-11-6
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Role.pm
+  line: 16
+Moose
+  -----
+  trace: 3-1-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 8
+  -----
+  trace: 3-1-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 9
+  -----
+  trace: 3-1-3
+  ver: 5.008
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 11
+  -----
+  trace: 3-1-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 13
+  -----
+  trace: 3-1-5
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 14
+  -----
+  trace: 3-1-6
+  req: Moose/Deprecated.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 16
+  -----
+  trace: 3-1-7
+  req: Moose/Exporter.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 17
+  -----
+  trace: 3-1-8
+  req: Class/MOP.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 19
+  -----
+  trace: 3-1-9
+  req: Moose/Meta/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 26
+  -----
+  trace: 3-1-10
+  req: Moose/Meta/TypeConstraint.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 27
+  -----
+  trace: 3-1-11
+  req: Moose/Meta/TypeCoercion.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 28
+  -----
+  trace: 3-1-12
+  req: Moose/Meta/Attribute.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 29
+  -----
+  trace: 3-1-13
+  req: Moose/Meta/Instance.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 30
+  -----
+  trace: 3-1-14
+  req: Moose/Object.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 32
+  -----
+  trace: 3-1-15
+  req: Moose/Meta/Role.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 34
+  -----
+  trace: 3-1-16
+  req: Moose/Meta/Role/Composite.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 35
+  -----
+  trace: 3-1-17
+  req: Moose/Meta/Role/Application.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 36
+  -----
+  trace: 3-1-18
+  req: Moose/Meta/Role/Application/RoleSummation.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 37
+  -----
+  trace: 3-1-19
+  req: Moose/Meta/Role/Application/ToClass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 38
+  -----
+  trace: 3-1-20
+  req: Moose/Meta/Role/Application/ToRole.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 39
+  -----
+  trace: 3-1-21
+  req: Moose/Meta/Role/Application/ToInstance.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 40
+  -----
+  trace: 3-1-22
+  req: Moose/Util/TypeConstraints.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 42
+  -----
+  trace: 3-1-23
+  req: Moose/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 43
+  -----
+  trace: 3-1-24
+  req: Moose/Meta/Attribute/Native.pm
+  file: /usr/local/lib/perl/5.10.1/Moose.pm
+  line: 45
+Exporter::Heavy
+  -----
+  trace: 5-4-1
+  req: strict.pm
+  file: /usr/share/perl/5.10/Exporter/Heavy.pm
+  line: 3
+  -----
+  trace: 5-4-2
+  req: strict.pm
+  file: /usr/share/perl/5.10/Exporter/Heavy.pm
+  line: 4
+  -----
+  trace: 5-4-3
+  req: warnings.pm
+  file: /usr/share/perl/5.10/Exporter/Heavy.pm
+  line: 186
+  -----
+  trace: 5-4-4
+  req: Exporter.pm
+  file: /usr/share/perl/5.10/Exporter/Heavy.pm
+  line: 7
+Moose::Meta::TypeCoercion::Union
+  -----
+  trace: 3-1-11-4-12-7-4-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeCoercion/Union.pm
+  line: 10
+  -----
+  trace: 3-1-11-4-12-7-4-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeCoercion/Union.pm
+  line: 11
+  -----
+  trace: 3-1-11-4-12-7-4-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeCoercion/Union.pm
+  line: 12
+  -----
+  trace: 3-1-11-4-12-7-4-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeCoercion/Union.pm
+  line: 14
+  -----
+  trace: 3-1-11-4-12-7-4-5
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeCoercion/Union.pm
+  line: 16
+Package::Stash
+  -----
+  trace: 3-1-7-3-12-14-6-6-1
+  req: strict.pm
+  file: /usr/local/share/perl/5.10.1/Package/Stash.pm
+  line: 5
+  -----
+  trace: 3-1-7-3-12-14-6-6-2
+  req: warnings.pm
+  file: /usr/local/share/perl/5.10.1/Package/Stash.pm
+  line: 6
+  -----
+  trace: 3-1-7-3-12-14-6-6-3
+  req: Package/Stash/XS.pm
+  file: (eval 23)
+  line: 1
+  -----
+  trace: 3-1-7-3-12-14-6-6-4
+  req: Package/DeprecationManager.pm
+  file: /usr/local/share/perl/5.10.1/Package/Stash.pm
+  line: 56
+Moose::Meta::Method
+  -----
+  trace: 3-1-9-9-4-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method.pm
+  line: 9
+  -----
+  trace: 3-1-9-9-4-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method.pm
+  line: 10
+  -----
+  trace: 3-1-9-9-4-3
+  req: Class/MOP/MiniTrait.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method.pm
+  line: 12
+  -----
+  trace: 3-1-9-9-4-4
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method.pm
+  line: 14
+constant
+  -----
+  trace: 3-1-7-3-11-3-5-1
+  ver: 5.005
+  file: /usr/share/perl/5.10/constant.pm
+  line: 2
+  -----
+  trace: 3-1-7-3-11-3-5-2
+  req: strict.pm
+  file: /usr/share/perl/5.10/constant.pm
+  line: 3
+  -----
+  trace: 3-1-7-3-11-3-5-3
+  req: warnings/register.pm
+  file: /usr/share/perl/5.10/constant.pm
+  line: 4
+  -----
+  trace: 3-1-7-3-11-3-5-4
+  req: vars.pm
+  file: /usr/share/perl/5.10/constant.pm
+  line: 6
+  -----
+  trace: 3-1-7-3-11-3-5-5
+  req: strict.pm
+  file: /usr/share/perl/5.10/constant.pm
+  line: 38
+  -----
+  trace: 3-1-7-3-11-3-5-6
+  req: strict.pm
+  file: /usr/share/perl/5.10/constant.pm
+  line: 101
+Moose::Meta::Method::Augmented
+  -----
+  trace: 3-1-9-10-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Augmented.pm
+  line: 9
+  -----
+  trace: 3-1-9-10-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Augmented.pm
+  line: 10
+  -----
+  trace: 3-1-9-10-3
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Augmented.pm
+  line: 12
+Exporter
+  -----
+  trace: 3-1-4-3-1
+  ver: 5.006
+  file: /usr/share/perl/5.10/Exporter.pm
+  line: 3
+  -----
+  trace: 5-4
+  req: Exporter/Heavy.pm
+  file: /usr/share/perl/5.10/Exporter.pm
+  line: 19
+Carp
+  -----
+  trace: 3-1-5-1
+  req: Exporter.pm
+  file: /usr/share/perl/5.10/Carp.pm
+  line: 14
+  -----
+  trace: 3-1-9-11-3-1
+  req: Carp.pm
+  file: /usr/share/perl/5.10/Carp/Heavy.pm
+  line: 5
+  -----
+  trace: 3-1-9-11-3-2
+  req: strict.pm
+  file: /usr/share/perl/5.10/Carp/Heavy.pm
+  line: 289
+  -----
+  trace: 3-1-9-11-3-3
+  req: warnings.pm
+  file: /usr/share/perl/5.10/Carp/Heavy.pm
+  line: 290
+DBD::_::common
+  -----
+  trace: 5-14
+  req: strict.pm
+  file: /usr/lib/perl5/DBI.pm
+  line: 1344
+Moose::Meta::Role::Method::Conflicting
+  -----
+  trace: 3-1-15-11-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Method/Conflicting.pm
+  line: 10
+  -----
+  trace: 3-1-15-11-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Method/Conflicting.pm
+  line: 11
+  -----
+  trace: 3-1-15-11-3
+  req: Moose/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Method/Conflicting.pm
+  line: 13
+  -----
+  trace: 3-1-15-11-4
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Method/Conflicting.pm
+  line: 15
+Sub::Install
+  -----
+  trace: 3-1-6-3-6-1
+  req: warnings.pm
+  file: /usr/local/share/perl/5.10.1/Sub/Install.pm
+  line: 3
+  -----
+  trace: 3-1-6-3-6-2
+  req: strict.pm
+  file: /usr/local/share/perl/5.10.1/Sub/Install.pm
+  line: 4
+  -----
+  trace: 3-1-6-3-6-3
+  req: Carp.pm
+  file: /usr/local/share/perl/5.10.1/Sub/Install.pm
+  line: 6
+  -----
+  trace: 3-1-6-3-6-4
+  req: Scalar/Util.pm
+  file: /usr/local/share/perl/5.10.1/Sub/Install.pm
+  line: 7
+  -----
+  trace: 3-1-6-3-6-5
+  req: strict.pm
+  file: /usr/local/share/perl/5.10.1/Sub/Install.pm
+  line: 184
+Moose::Meta::TypeConstraint::Parameterized
+  -----
+  trace: 3-1-11-4-12-8-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Parameterized.pm
+  line: 9
+  -----
+  trace: 3-1-11-4-12-8-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Parameterized.pm
+  line: 10
+  -----
+  trace: 3-1-11-4-12-8-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Parameterized.pm
+  line: 11
+  -----
+  trace: 3-1-11-4-12-8-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Parameterized.pm
+  line: 13
+  -----
+  trace: 3-1-11-4-12-8-5
+  req: Moose/Util/TypeConstraints.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Parameterized.pm
+  line: 14
+  -----
+  trace: 3-1-11-4-12-8-6
+  req: Moose/Meta/TypeConstraint/Parameterizable.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Parameterized.pm
+  line: 15
+  -----
+  trace: 3-1-11-4-12-8-7
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Parameterized.pm
+  line: 17
+Moose::Util::MetaRole
+  -----
+  trace: 3-1-7-5-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/MetaRole.pm
+  line: 9
+  -----
+  trace: 3-1-7-5-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/MetaRole.pm
+  line: 10
+  -----
+  trace: 3-1-7-5-3
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/MetaRole.pm
+  line: 11
+  -----
+  trace: 3-1-7-5-4
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/MetaRole.pm
+  line: 13
+  -----
+  trace: 3-1-7-5-5
+  req: List/MoreUtils.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/MetaRole.pm
+  line: 14
+  -----
+  trace: 3-1-7-5-6
+  req: List/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/MetaRole.pm
+  line: 15
+  -----
+  trace: 3-1-7-5-7
+  req: Moose/Deprecated.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/MetaRole.pm
+  line: 16
+  -----
+  trace: 3-1-7-5-8
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/MetaRole.pm
+  line: 17
+AutoLoader
+  -----
+  trace: 3-1-6-3-4-4-2-1
+  req: strict.pm
+  file: /usr/share/perl/5.10/AutoLoader.pm
+  line: 3
+  -----
+  trace: 3-1-6-3-4-4-2-2
+  ver: 5.006001
+  file: /usr/share/perl/5.10/AutoLoader.pm
+  line: 4
+  -----
+  trace: 3-1-6-3-4-4-2-3
+  req: strict.pm
+  file: /usr/share/perl/5.10/AutoLoader.pm
+  line: 30
+  -----
+  trace: 3-1-6-3-4-4-2-4
+  req: strict.pm
+  file: /usr/share/perl/5.10/AutoLoader.pm
+  line: 138
+  -----
+  trace: 3-1-6-3-4-4-2-5
+  req: strict.pm
+  file: /usr/share/perl/5.10/AutoLoader.pm
+  line: 186
+mro
+  -----
+  trace: 3-1-7-3-4-4-1
+  req: strict.pm
+  file: /usr/lib/perl/5.10/mro.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-4-4-2
+  req: warnings.pm
+  file: /usr/lib/perl/5.10/mro.pm
+  line: 11
+This::Thing
+  -----
+  trace: 3-1
+  req: Moose.pm
+  file: This/Thing.pm
+  line: 2
+  -----
+  trace: 4
+  req: Data/Dumper.pm
+  file: This/Thing.pm
+  line: 7
+Devel::TraceDeps
+  -----
+  trace: 3-1-7-3-7-1
+  req: strict.pm
+  file: /usr/local/share/perl/5.10.1/Data/OptList.pm
+  line: 1
+  -----
+  trace: 3-1-7-3-7-2
+  req: warnings.pm
+  file: /usr/local/share/perl/5.10.1/Data/OptList.pm
+  line: 2
+  -----
+  trace: 3-1-7-3-12-5-7-4-3-1
+  ver: 5.006
+  file: /usr/local/share/perl/5.10.1/Sub/Exporter.pm
+  line: 1
+  -----
+  trace: 3-1-7-3-12-5-7-4-3-2
+  req: strict.pm
+  file: /usr/local/share/perl/5.10.1/Sub/Exporter.pm
+  line: 2
+  -----
+  trace: 3-1-7-3-12-5-7-4-3-3
+  req: warnings.pm
+  file: /usr/local/share/perl/5.10.1/Sub/Exporter.pm
+  line: 3
+  -----
+  trace: 5-18
+  ver: 5.008001
+  file: /usr/lib/perl5/DBI.pm
+  line: 9
+Moose::Meta::Method::Meta
+  -----
+  trace: 3-1-9-15-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Meta.pm
+  line: 10
+  -----
+  trace: 3-1-9-15-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Meta.pm
+  line: 11
+  -----
+  trace: 3-1-9-15-3
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Meta.pm
+  line: 14
+Moose::Meta::Role::Application::RoleSummation
+  -----
+  trace: 3-1-18-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/RoleSummation.pm
+  line: 9
+  -----
+  trace: 3-1-18-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/RoleSummation.pm
+  line: 10
+  -----
+  trace: 3-1-18-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/RoleSummation.pm
+  line: 11
+  -----
+  trace: 3-1-18-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/RoleSummation.pm
+  line: 13
+  -----
+  trace: 3-1-18-5
+  req: Moose/Meta/Role/Composite.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/RoleSummation.pm
+  line: 15
+  -----
+  trace: 3-1-18-6
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/RoleSummation.pm
+  line: 17
+List::Util
+  -----
+  trace: 3-1-4-4-1
+  req: strict.pm
+  file: /usr/lib/perl/5.10/List/Util.pm
+  line: 11
+  -----
+  trace: 3-1-4-4-2
+  req: vars.pm
+  file: /usr/lib/perl/5.10/List/Util.pm
+  line: 12
+  -----
+  trace: 3-1-4-4-3
+  req: Exporter.pm
+  file: /usr/lib/perl/5.10/List/Util.pm
+  line: 13
+  -----
+  trace: 3-1-4-4-4
+  req: XSLoader.pm
+  file: /usr/lib/perl/5.10/List/Util.pm
+  line: 26
+Class::MOP::Attribute
+  -----
+  trace: 3-1-7-3-13-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Attribute.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-13-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Attribute.pm
+  line: 11
+  -----
+  trace: 3-1-7-3-13-3
+  req: Class/MOP/Method/Accessor.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Attribute.pm
+  line: 13
+  -----
+  trace: 3-1-7-3-13-4
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Attribute.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-13-5
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Attribute.pm
+  line: 16
+  -----
+  trace: 3-1-7-3-13-6
+  req: Try/Tiny.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Attribute.pm
+  line: 17
+  -----
+  trace: 3-1-7-3-13-7
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Attribute.pm
+  line: 19
+Moose::Meta::Instance
+  -----
+  trace: 3-1-13-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Instance.pm
+  line: 10
+  -----
+  trace: 3-1-13-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Instance.pm
+  line: 11
+  -----
+  trace: 3-1-13-3
+  req: Class/MOP/MiniTrait.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Instance.pm
+  line: 13
+  -----
+  trace: 3-1-13-4
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Instance.pm
+  line: 15
+Moose::Meta::TypeConstraint::Registry
+  -----
+  trace: 3-1-11-4-12-16-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Registry.pm
+  line: 10
+  -----
+  trace: 3-1-11-4-12-16-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Registry.pm
+  line: 11
+  -----
+  trace: 3-1-11-4-12-16-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Registry.pm
+  line: 12
+  -----
+  trace: 3-1-11-4-12-16-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Registry.pm
+  line: 14
+  -----
+  trace: 3-1-11-4-12-16-5
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Registry.pm
+  line: 16
+Moose::Meta::Method::Constructor
+  -----
+  trace: 3-1-9-13-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Constructor.pm
+  line: 10
+  -----
+  trace: 3-1-9-13-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Constructor.pm
+  line: 11
+  -----
+  trace: 3-1-9-13-3
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Constructor.pm
+  line: 13
+  -----
+  trace: 3-1-9-13-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Constructor.pm
+  line: 14
+  -----
+  trace: 3-1-9-13-5
+  req: Try/Tiny.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Constructor.pm
+  line: 15
+  -----
+  trace: 3-1-9-13-6
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Constructor.pm
+  line: 18
+Class::MOP::MiniTrait
+  -----
+  trace: 3-1-7-3-12-7-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/MiniTrait.pm
+  line: 9
+  -----
+  trace: 3-1-7-3-12-7-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/MiniTrait.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-12-7-3
+  req: Class/MOP.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/MiniTrait.pm
+  line: 36
+Moose::Object
+  -----
+  trace: 3-1-14-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Object.pm
+  line: 10
+  -----
+  trace: 3-1-14-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Object.pm
+  line: 11
+  -----
+  trace: 3-1-14-3
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Object.pm
+  line: 13
+  -----
+  trace: 3-1-14-4
+  req: Devel/GlobalDestruction.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Object.pm
+  line: 14
+  -----
+  trace: 3-1-14-5
+  req: MRO/Compat.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Object.pm
+  line: 15
+  -----
+  trace: 3-1-14-6
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Object.pm
+  line: 16
+  -----
+  trace: 3-1-14-7
+  req: Try/Tiny.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Object.pm
+  line: 17
+  -----
+  trace: 3-1-14-8
+  req: if.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Object.pm
+  line: 19
+  -----
+  trace: 3-1-14-10
+  req: if.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Object.pm
+  line: 20
+  -----
+  trace: 3-1-14-12
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Object.pm
+  line: 85
+Moose::Role
+  -----
+  trace: 3-2-1-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Role.pm
+  line: 8
+  -----
+  trace: 3-2-1-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Role.pm
+  line: 9
+  -----
+  trace: 3-2-1-3
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Role.pm
+  line: 11
+  -----
+  trace: 3-2-1-4
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Role.pm
+  line: 12
+  -----
+  trace: 3-2-1-5
+  req: Sub/Exporter.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Role.pm
+  line: 14
+  -----
+  trace: 3-2-1-6
+  req: Moose.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Role.pm
+  line: 16
+  -----
+  trace: 3-2-1-7
+  req: Moose/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Role.pm
+  line: 17
+  -----
+  trace: 3-2-1-8
+  req: Moose/Exporter.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Role.pm
+  line: 19
+  -----
+  trace: 3-2-1-9
+  req: Moose/Meta/Role.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Role.pm
+  line: 20
+  -----
+  trace: 3-2-1-10
+  req: Moose/Util/TypeConstraints.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Role.pm
+  line: 21
+Moose::Meta::Mixin::AttributeCore
+  -----
+  trace: 3-1-11-4-15-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Mixin/AttributeCore.pm
+  line: 9
+  -----
+  trace: 3-1-11-4-15-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Mixin/AttributeCore.pm
+  line: 10
+  -----
+  trace: 3-1-11-4-15-3
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Mixin/AttributeCore.pm
+  line: 12
+Try::Tiny
+  -----
+  trace: 3-1-7-3-8-1
+  req: strict.pm
+  file: /usr/local/share/perl/5.10.1/Try/Tiny.pm
+  line: 3
+  -----
+  trace: 3-1-7-3-8-2
+  req: vars.pm
+  file: /usr/local/share/perl/5.10.1/Try/Tiny.pm
+  line: 6
+  -----
+  trace: 3-1-7-3-8-3
+  req: Exporter.pm
+  file: /usr/local/share/perl/5.10.1/Try/Tiny.pm
+  line: 9
+  -----
+  trace: 3-1-7-3-8-4
+  req: Carp.pm
+  file: /usr/local/share/perl/5.10.1/Try/Tiny.pm
+  line: 46
+Moose::Meta::Role::Attribute
+  -----
+  trace: 3-1-15-8-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Attribute.pm
+  line: 9
+  -----
+  trace: 3-1-15-8-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Attribute.pm
+  line: 10
+  -----
+  trace: 3-1-15-8-3
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Attribute.pm
+  line: 12
+  -----
+  trace: 3-1-15-8-4
+  req: List/MoreUtils.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Attribute.pm
+  line: 13
+  -----
+  trace: 3-1-15-8-5
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Attribute.pm
+  line: 14
+  -----
+  trace: 3-1-15-8-6
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Attribute.pm
+  line: 16
+Data::Dumper
+  -----
+  trace: 4-1
+  ver: 5.006001
+  file: /usr/lib/perl/5.10/Data/Dumper.pm
+  line: 16
+  -----
+  trace: 4-2
+  req: Carp.pm
+  file: /usr/lib/perl/5.10/Data/Dumper.pm
+  line: 20
+  -----
+  trace: 4-3
+  req: XSLoader.pm
+  file: /usr/lib/perl/5.10/Data/Dumper.pm
+  line: 31
+  -----
+  trace: 4-4
+  req: bytes.pm
+  file: /usr/lib/perl/5.10/Data/Dumper.pm
+  line: 683
+  -----
+  trace: 4-5
+  req: Exporter.pm
+  file: /usr/lib/perl/5.10/Data/Dumper.pm
+  line: 17
+  -----
+  trace: 4-6
+  req: overload.pm
+  file: /usr/lib/perl/5.10/Data/Dumper.pm
+  line: 18
+re
+  -----
+  trace: 3-1-11-4-12-19-1
+  req: strict.pm
+  file: /usr/lib/perl/5.10/re.pm
+  line: 4
+  -----
+  trace: 3-1-11-4-12-19-2
+  req: warnings.pm
+  file: /usr/lib/perl/5.10/re.pm
+  line: 5
+overload
+  -----
+  trace: 3-1-6-3-5-4-1
+  req: warnings/register.pm
+  file: /usr/share/perl/5.10/overload.pm
+  line: 139
+Sub::Name
+  -----
+  trace: 3-1-7-3-11-6-1
+  ver: 5.006
+  file: /usr/local/lib/perl/5.10.1/Sub/Name.pm
+  line: 42
+  -----
+  trace: 3-1-7-3-11-6-2
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Sub/Name.pm
+  line: 44
+  -----
+  trace: 3-1-7-3-11-6-3
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Sub/Name.pm
+  line: 45
+  -----
+  trace: 3-1-7-3-11-6-4
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Sub/Name.pm
+  line: 49
+  -----
+  trace: 3-1-7-3-11-6-5
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Sub/Name.pm
+  line: 50
+main
+  -----
+  trace: 1
+  req: strict.pm
+  file: ./go.pl
+  line: 2
+  -----
+  trace: 2
+  req: warnings.pm
+  file: ./go.pl
+  line: 3
+  -----
+  trace: 3
+  req: This/Thing.pm
+  file: ./go.pl
+  line: 4
+metaclass
+  -----
+  trace: 3-1-10-3-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/metaclass.pm
+  line: 10
+  -----
+  trace: 3-1-10-3-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/metaclass.pm
+  line: 11
+  -----
+  trace: 3-1-10-3-3
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/metaclass.pm
+  line: 13
+  -----
+  trace: 3-1-10-3-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/metaclass.pm
+  line: 14
+  -----
+  trace: 3-1-10-3-5
+  req: Try/Tiny.pm
+  file: /usr/local/lib/perl/5.10.1/metaclass.pm
+  line: 15
+  -----
+  trace: 3-1-10-3-6
+  req: Class/MOP.pm
+  file: /usr/local/lib/perl/5.10.1/metaclass.pm
+  line: 17
+Package::DeprecationManager
+  -----
+  trace: 3-1-6-3-1
+  req: strict.pm
+  file: /usr/local/share/perl/5.10.1/Package/DeprecationManager.pm
+  line: 6
+  -----
+  trace: 3-1-6-3-2
+  req: warnings.pm
+  file: /usr/local/share/perl/5.10.1/Package/DeprecationManager.pm
+  line: 7
+  -----
+  trace: 3-1-6-3-3
+  req: Carp.pm
+  file: /usr/local/share/perl/5.10.1/Package/DeprecationManager.pm
+  line: 9
+  -----
+  trace: 3-1-6-3-4
+  req: List/MoreUtils.pm
+  file: /usr/local/share/perl/5.10.1/Package/DeprecationManager.pm
+  line: 10
+  -----
+  trace: 3-1-6-3-5
+  req: Params/Util.pm
+  file: /usr/local/share/perl/5.10.1/Package/DeprecationManager.pm
+  line: 11
+  -----
+  trace: 3-1-6-3-6
+  req: Sub/Install.pm
+  file: /usr/local/share/perl/5.10.1/Package/DeprecationManager.pm
+  line: 12
+Scalar::Util
+  -----
+  trace: 3-1-4-1
+  req: strict.pm
+  file: /usr/lib/perl/5.10/Scalar/Util.pm
+  line: 9
+  -----
+  trace: 3-1-4-2
+  req: vars.pm
+  file: /usr/lib/perl/5.10/Scalar/Util.pm
+  line: 10
+  -----
+  trace: 3-1-4-3
+  req: Exporter.pm
+  file: /usr/lib/perl/5.10/Scalar/Util.pm
+  line: 11
+  -----
+  trace: 3-1-4-4
+  req: List/Util.pm
+  file: /usr/lib/perl/5.10/Scalar/Util.pm
+  line: 12
+Class::MOP::Package
+  -----
+  trace: 3-1-7-3-12-14-6-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Package.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-12-14-6-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Package.pm
+  line: 11
+  -----
+  trace: 3-1-7-3-12-14-6-3
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Package.pm
+  line: 13
+  -----
+  trace: 3-1-7-3-12-14-6-4
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Package.pm
+  line: 14
+  -----
+  trace: 3-1-7-3-12-14-6-5
+  req: Devel/GlobalDestruction.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Package.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-12-14-6-6
+  req: Package/Stash.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Package.pm
+  line: 16
+  -----
+  trace: 3-1-7-3-12-14-6-7
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Package.pm
+  line: 18
+  -----
+  trace: 3-1-7-3-12-14-6-8
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Package.pm
+  line: 96
+  -----
+  trace: 3-1-7-3-12-14-6-9
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Package.pm
+  line: 151
+  -----
+  trace: 3-1-7-3-12-14-6-10
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Package.pm
+  line: 157
+  -----
+  trace: 3-1-7-3-66-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Deprecated.pm
+  line: 82
+Moose::Meta::TypeConstraint::Class
+  -----
+  trace: 3-1-11-4-12-10-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Class.pm
+  line: 9
+  -----
+  trace: 3-1-11-4-12-10-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Class.pm
+  line: 10
+  -----
+  trace: 3-1-11-4-12-10-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Class.pm
+  line: 11
+  -----
+  trace: 3-1-11-4-12-10-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Class.pm
+  line: 13
+  -----
+  trace: 3-1-11-4-12-10-5
+  req: Moose/Util/TypeConstraints.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Class.pm
+  line: 14
+  -----
+  trace: 3-1-11-4-12-10-6
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Class.pm
+  line: 16
+DBD::SQLite
+  -----
+  trace: 6-1
+  ver: 5.006
+  file: /usr/lib/perl5/DBD/SQLite.pm
+  line: 3
+  -----
+  trace: 6-2
+  req: strict.pm
+  file: /usr/lib/perl5/DBD/SQLite.pm
+  line: 4
+  -----
+  trace: 6-3
+  req: DBI.pm
+  file: /usr/lib/perl5/DBD/SQLite.pm
+  line: 5
+  -----
+  trace: 6-4
+  req: DynaLoader.pm
+  file: /usr/lib/perl5/DBD/SQLite.pm
+  line: 6
+  -----
+  trace: 6-5
+  req: vars.pm
+  file: /usr/lib/perl5/DBD/SQLite.pm
+  line: 8
+  -----
+  trace: 6-6
+  req: vars.pm
+  file: /usr/lib/perl5/DBD/SQLite.pm
+  line: 9
+  -----
+  trace: 6-7
+  req: vars.pm
+  file: /usr/lib/perl5/DBD/SQLite.pm
+  line: 10
+  -----
+  trace: 6-8
+  req: locale.pm
+  file: /usr/lib/perl5/DBD/SQLite.pm
+  line: 31
+Moose::Util::TypeConstraints::OptimizedConstraints
+  -----
+  trace: 3-1-11-4-12-17-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints/OptimizedConstraints.pm
+  line: 9
+  -----
+  trace: 3-1-11-4-12-17-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints/OptimizedConstraints.pm
+  line: 10
+  -----
+  trace: 3-1-11-4-12-17-3
+  req: Class/MOP.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints/OptimizedConstraints.pm
+  line: 12
+  -----
+  trace: 3-1-11-4-12-17-4
+  req: Moose/Deprecated.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints/OptimizedConstraints.pm
+  line: 13
+  -----
+  trace: 3-1-11-4-12-17-5
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Util/TypeConstraints/OptimizedConstraints.pm
+  line: 14
+Class::MOP::Method::Wrapped
+  -----
+  trace: 3-1-7-3-12-4-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Wrapped.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-12-4-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Wrapped.pm
+  line: 11
+  -----
+  trace: 3-1-7-3-12-4-3
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Wrapped.pm
+  line: 13
+  -----
+  trace: 3-1-7-3-12-4-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Wrapped.pm
+  line: 14
+  -----
+  trace: 3-1-7-3-12-4-5
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method/Wrapped.pm
+  line: 16
+DBD::_::dr
+  -----
+  trace: 5-15
+  req: strict.pm
+  file: /usr/lib/perl5/DBI.pm
+  line: 1446
+Moose::Meta::Class
+  -----
+  trace: 3-1-9-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 10
+  -----
+  trace: 3-1-9-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 11
+  -----
+  trace: 3-1-9-3
+  req: Class/MOP.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 13
+  -----
+  trace: 3-1-9-4
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 15
+  -----
+  trace: 3-1-9-5
+  req: Data/OptList.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 16
+  -----
+  trace: 3-1-9-6
+  req: List/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 17
+  -----
+  trace: 3-1-9-7
+  req: List/MoreUtils.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 18
+  -----
+  trace: 3-1-9-8
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 19
+  -----
+  trace: 3-1-9-9
+  req: Moose/Meta/Method/Overridden.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 21
+  -----
+  trace: 3-1-9-10
+  req: Moose/Meta/Method/Augmented.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 22
+  -----
+  trace: 3-1-9-11
+  req: Moose/Error/Default.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 23
+  -----
+  trace: 3-1-9-12
+  req: Moose/Meta/Class/Immutable/Trait.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 24
+  -----
+  trace: 3-1-9-13
+  req: Moose/Meta/Method/Constructor.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 25
+  -----
+  trace: 3-1-9-14
+  req: Moose/Meta/Method/Destructor.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 26
+  -----
+  trace: 3-1-9-15
+  req: Moose/Meta/Method/Meta.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 27
+  -----
+  trace: 3-1-9-16
+  req: Moose/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 28
+  -----
+  trace: 3-1-9-17
+  req: Class/MOP/MiniTrait.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 29
+  -----
+  trace: 3-1-9-18
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Class.pm
+  line: 31
+Moose::Meta::Role::Method::Required
+  -----
+  trace: 3-1-15-10-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Method/Required.pm
+  line: 10
+  -----
+  trace: 3-1-15-10-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Method/Required.pm
+  line: 11
+  -----
+  trace: 3-1-15-10-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Method/Required.pm
+  line: 12
+  -----
+  trace: 3-1-15-10-4
+  req: overload.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Method/Required.pm
+  line: 15
+  -----
+  trace: 3-1-15-10-5
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Method/Required.pm
+  line: 17
+Moose::Meta::Method::Destructor
+  -----
+  trace: 3-1-9-14-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Destructor.pm
+  line: 10
+  -----
+  trace: 3-1-9-14-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Destructor.pm
+  line: 11
+  -----
+  trace: 3-1-9-14-3
+  req: Devel/GlobalDestruction.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Destructor.pm
+  line: 13
+  -----
+  trace: 3-1-9-14-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Destructor.pm
+  line: 14
+  -----
+  trace: 3-1-9-14-5
+  req: Try/Tiny.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Destructor.pm
+  line: 15
+  -----
+  trace: 3-1-9-14-6
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Destructor.pm
+  line: 18
+Moose::Meta::Attribute
+  -----
+  trace: 3-1-11-4-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Attribute.pm
+  line: 10
+  -----
+  trace: 3-1-11-4-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Attribute.pm
+  line: 11
+  -----
+  trace: 3-1-11-4-3
+  req: Class/MOP.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Attribute.pm
+  line: 13
+  -----
+  trace: 3-1-11-4-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Attribute.pm
+  line: 14
+  -----
+  trace: 3-1-11-4-5
+  req: List/MoreUtils.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Attribute.pm
+  line: 15
+  -----
+  trace: 3-1-11-4-6
+  req: Try/Tiny.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Attribute.pm
+  line: 16
+  -----
+  trace: 3-1-11-4-7
+  req: overload.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Attribute.pm
+  line: 17
+  -----
+  trace: 3-1-11-4-8
+  req: Moose/Deprecated.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Attribute.pm
+  line: 19
+  -----
+  trace: 3-1-11-4-9
+  req: Moose/Meta/Method/Accessor.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Attribute.pm
+  line: 20
+  -----
+  trace: 3-1-11-4-10
+  req: Moose/Meta/Method/Delegation.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Attribute.pm
+  line: 21
+  -----
+  trace: 3-1-11-4-11
+  req: Moose/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Attribute.pm
+  line: 22
+  -----
+  trace: 3-1-11-4-12
+  req: Moose/Util/TypeConstraints.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Attribute.pm
+  line: 23
+  -----
+  trace: 3-1-11-4-13
+  req: Class/MOP/MiniTrait.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Attribute.pm
+  line: 24
+  -----
+  trace: 3-1-11-4-14
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Attribute.pm
+  line: 26
+Class::MOP::Mixin::AttributeCore
+  -----
+  trace: 3-1-7-3-9-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/AttributeCore.pm
+  line: 9
+  -----
+  trace: 3-1-7-3-9-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/AttributeCore.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-9-3
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/AttributeCore.pm
+  line: 12
+  -----
+  trace: 3-1-7-3-9-4
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/AttributeCore.pm
+  line: 14
+MRO::Compat
+  -----
+  trace: 3-1-7-3-4-1
+  req: strict.pm
+  file: /usr/local/share/perl/5.10.1/MRO/Compat.pm
+  line: 2
+  -----
+  trace: 3-1-7-3-4-2
+  req: warnings.pm
+  file: /usr/local/share/perl/5.10.1/MRO/Compat.pm
+  line: 3
+  -----
+  trace: 3-1-7-3-4-3
+  req: warnings.pm
+  file: /usr/local/share/perl/5.10.1/MRO/Compat.pm
+  line: 39
+  -----
+  trace: 3-1-7-3-4-4
+  req: mro.pm
+  file: /usr/local/share/perl/5.10.1/MRO/Compat.pm
+  line: 38
+  -----
+  trace: 3-1-7-3-4-5
+  req: strict.pm
+  file: /usr/local/share/perl/5.10.1/MRO/Compat.pm
+  line: 116
+  -----
+  trace: 3-1-7-3-4-6
+  req: strict.pm
+  file: /usr/local/share/perl/5.10.1/MRO/Compat.pm
+  line: 225
+  -----
+  trace: 3-1-7-3-4-7
+  req: warnings.pm
+  file: /usr/local/share/perl/5.10.1/MRO/Compat.pm
+  line: 226
+  -----
+  trace: 3-1-7-3-4-8
+  req: strict.pm
+  file: /usr/local/share/perl/5.10.1/MRO/Compat.pm
+  line: 256
+  -----
+  trace: 3-1-7-3-4-9
+  ver: 5.006
+  file: /usr/local/share/perl/5.10.1/MRO/Compat.pm
+  line: 4
+Class::MOP::Mixin::HasAttributes
+  -----
+  trace: 3-1-7-3-10-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/HasAttributes.pm
+  line: 9
+  -----
+  trace: 3-1-7-3-10-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/HasAttributes.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-10-3
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/HasAttributes.pm
+  line: 12
+  -----
+  trace: 3-1-7-3-10-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/HasAttributes.pm
+  line: 13
+  -----
+  trace: 3-1-7-3-10-5
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin/HasAttributes.pm
+  line: 15
+DBD::SQLite::_WriteOnceHash
+  -----
+  trace: 6-10
+  req: Tie/Hash.pm
+  file: /usr/lib/perl5/DBD/SQLite.pm
+  line: 546
+Moose::Meta::Method::Accessor
+  -----
+  trace: 3-1-11-4-9-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Accessor.pm
+  line: 10
+  -----
+  trace: 3-1-11-4-9-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Accessor.pm
+  line: 11
+  -----
+  trace: 3-1-11-4-9-3
+  req: Try/Tiny.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Accessor.pm
+  line: 13
+  -----
+  trace: 3-1-11-4-9-4
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Accessor.pm
+  line: 16
+Moose::Deprecated
+  -----
+  trace: 3-1-6-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Deprecated.pm
+  line: 9
+  -----
+  trace: 3-1-6-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Deprecated.pm
+  line: 10
+  -----
+  trace: 3-1-6-3
+  req: Package/DeprecationManager.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Deprecated.pm
+  line: 24
+Class::MOP::Method
+  -----
+  trace: 3-1-7-3-11-3-7-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-11-3-7-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method.pm
+  line: 11
+  -----
+  trace: 3-1-7-3-11-3-7-3
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method.pm
+  line: 13
+  -----
+  trace: 3-1-7-3-11-3-7-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method.pm
+  line: 14
+  -----
+  trace: 3-1-7-3-11-3-7-5
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method.pm
+  line: 16
+  -----
+  trace: 3-1-7-3-11-3-7-7
+  req: overload.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Method.pm
+  line: 21
+Moose::Meta::TypeConstraint
+  -----
+  trace: 3-1-10-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint.pm
+  line: 10
+  -----
+  trace: 3-1-10-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint.pm
+  line: 11
+  -----
+  trace: 3-1-10-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint.pm
+  line: 12
+  -----
+  trace: 3-1-10-4
+  req: overload.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint.pm
+  line: 17
+  -----
+  trace: 3-1-10-5
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint.pm
+  line: 19
+  -----
+  trace: 3-1-10-6
+  req: Sub/Name.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint.pm
+  line: 20
+  -----
+  trace: 3-1-10-7
+  req: Try/Tiny.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint.pm
+  line: 21
+  -----
+  trace: 3-1-10-8
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint.pm
+  line: 23
+Moose::Meta::TypeConstraint::Union
+  -----
+  trace: 3-1-11-4-12-7-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Union.pm
+  line: 10
+  -----
+  trace: 3-1-11-4-12-7-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Union.pm
+  line: 11
+  -----
+  trace: 3-1-11-4-12-7-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Union.pm
+  line: 12
+  -----
+  trace: 3-1-11-4-12-7-4
+  req: Moose/Meta/TypeCoercion/Union.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Union.pm
+  line: 14
+  -----
+  trace: 3-1-11-4-12-7-5
+  req: List/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Union.pm
+  line: 16
+  -----
+  trace: 3-1-11-4-12-7-6
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeConstraint/Union.pm
+  line: 18
+Moose::Meta::Method::Delegation
+  -----
+  trace: 3-1-11-4-10-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Delegation.pm
+  line: 10
+  -----
+  trace: 3-1-11-4-10-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Delegation.pm
+  line: 11
+  -----
+  trace: 3-1-11-4-10-3
+  req: Carp.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Delegation.pm
+  line: 13
+  -----
+  trace: 3-1-11-4-10-4
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Delegation.pm
+  line: 14
+  -----
+  trace: 3-1-11-4-10-5
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Method/Delegation.pm
+  line: 17
+Moose::Meta::TypeCoercion
+  -----
+  trace: 3-1-11-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeCoercion.pm
+  line: 10
+  -----
+  trace: 3-1-11-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeCoercion.pm
+  line: 11
+  -----
+  trace: 3-1-11-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeCoercion.pm
+  line: 12
+  -----
+  trace: 3-1-11-4
+  req: Moose/Meta/Attribute.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeCoercion.pm
+  line: 14
+  -----
+  trace: 3-1-11-5
+  req: Moose/Util/TypeConstraints.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/TypeCoercion.pm
+  line: 15
+DBD::_::db
+  -----
+  trace: 5-16
+  req: strict.pm
+  file: /usr/lib/perl5/DBI.pm
+  line: 1507
+Moose::Meta::Role::Application
+  -----
+  trace: 3-1-17-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application.pm
+  line: 9
+  -----
+  trace: 3-1-17-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application.pm
+  line: 10
+  -----
+  trace: 3-1-17-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application.pm
+  line: 11
+warnings::register
+  -----
+  trace: 3-1-4-2-2-1
+  req: warnings.pm
+  file: /usr/share/perl/5.10/warnings/register.pm
+  line: 5
+Moose::Meta::Object::Trait
+  -----
+  trace: 3-1-9-9-4-5-1
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Object/Trait.pm
+  line: 10
+Moose::Meta::Role::Application::ToClass
+  -----
+  trace: 3-1-19-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToClass.pm
+  line: 9
+  -----
+  trace: 3-1-19-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToClass.pm
+  line: 10
+  -----
+  trace: 3-1-19-3
+  req: metaclass.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToClass.pm
+  line: 11
+  -----
+  trace: 3-1-19-4
+  req: Moose/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToClass.pm
+  line: 13
+  -----
+  trace: 3-1-19-5
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToClass.pm
+  line: 14
+  -----
+  trace: 3-1-19-6
+  req: base.pm
+  file: /usr/local/lib/perl/5.10.1/Moose/Meta/Role/Application/ToClass.pm
+  line: 16
+Class::MOP::Mixin
+  -----
+  trace: 3-1-7-3-9-5-1
+  req: strict.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 9
+  -----
+  trace: 3-1-7-3-9-5-2
+  req: warnings.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 10
+  -----
+  trace: 3-1-7-3-9-5-3
+  req: Scalar/Util.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 12
+  -----
+  trace: 3-1-7-3-15
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-16
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-17
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-18
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-19
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-30
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-31
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-32
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-33
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-34
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-35
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-36
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-37
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-38
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-39
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-40
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-41
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
+  -----
+  trace: 3-1-7-3-65
+  req: Class/MOP/Class.pm
+  file: /usr/local/lib/perl/5.10.1/Class/MOP/Mixin.pm
+  line: 15
